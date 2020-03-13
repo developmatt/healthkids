@@ -13,16 +13,17 @@
     "build:all": "npm run build:css && npm run build:js",
     "watch:css": "onchange \"development/scss\" -- npm run build:css",
     "watch:js": "onchange \"development/js\" -- npm run build:js",
-    "watch:all": "npm-run-all -p serve watch:css watch:js",
-    "start": "npm run build:all && npm run watch:all"
+    "watch:all": "npm-run-all -p watch:css watch:js && npm run sync",
+    "start": "npm run build:all && npm run watch:all",
+    "sync": "browser-sync start --server --files production/css/*.css"
   },
   "devDependencies": {
-    "node-sass": "^4.5.0",
-    "postcss-cli": "^3.0.0-beta",
     "autoprefixer": "^6.7.6",
-    "browser-sync": "^2.18.8",
+    "browser-sync": "^2.26.7",
+    "node-sass": "^4.5.0",
     "npm-run-all": "^4.0.2",
     "onchange": "^3.2.1",
+    "postcss-cli": "^3.0.0-beta",
     "uglify-js": "^2.8.3"
   },
   "repository": {
