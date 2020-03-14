@@ -15,7 +15,7 @@
     "watch:js": "onchange \"development/js\" -- npm run build:js",
     "watch:all": "npm-run-all -p watch:css watch:js && npm run sync",
     "start": "npm run build:all && npm run watch:all",
-    "sync": "browser-sync start --server --files production/css/*.css"
+    "sync": "browser-sync start --server --files production/css/index.css index.html"
   },
   "devDependencies": {
     "autoprefixer": "^6.7.6",
