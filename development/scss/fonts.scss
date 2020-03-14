@@ -1,0 +1,19 @@
+@font-face {
+	font-family: "GothamRounded";
+    src: url("/fonts/GothamRounded/GothamRoundedBold.ttf") format("truetype");
+    font-weight: bold;
+}
+
+@font-face {
+	font-family: "GothamRounded";
+    src: url("/fonts/GothamRounded/GothamRoundedLight.ttf") format("truetype");
+    font-weight: lighter;
+}
+
+@font-face {
+	font-family: "GothamRounded";
+    src: url("/fonts/GothamRounded/GothamRoundedMedium.ttf") format("truetype");
+    font-weight: normal;
+}
+
+$font-gotham: 'GothamRounded';

@@ -1,1 +1,8 @@
-@import "./button.scss";
+@import './config.scss';
+@import './config.scss';
+@import './fonts.scss';
+@import './button.scss';
+
+* {
+    font-family: $font-gotham;
+}
