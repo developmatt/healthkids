@@ -8,6 +8,13 @@
     background-size: auto 100%;
     background-position: center;
     padding-top: 40px;
+    position: relative;
+
+    &__content {
+        position: relative;
+        padding: 0 50px;
+        text-align: center;
+    }
 
     &__title {
         font-size: 34px;
@@ -19,17 +26,44 @@
 
     &__slider-container {
         overflow: hidden;
-        height: 300px;
         margin-top: 20px;
+        padding: 0 10px;
+    }
+
+    &__controller {
+        position: absolute;
+        top: 80px;
+        font-size: 30px;
+        left: 0;
+        color: $blue;
+        cursor: pointer;
+        padding: 10px;
+        
+        * {
+            text-shadow: 3px 3px 4px rgba(0, 0, 10, 1);
+        }
+
+        &--right {
+            right: 0;
+            left: auto;
+        }
+    }
+
+    &__button {
+        display: inline-flex;
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 41px;
     }
 }
 
 .comment {
-    width: 50%;
+    padding: 0 20px;
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
     color: $blue;
+    text-align: left;
 
     &__image-container {
         width: 120px;
@@ -63,4 +97,8 @@
     &__nick {
         font-size: 16px;
     }
+}
+
+.fa-chevron-right {
+    text-shadow:3px 6px rgba(255,165,0,.75);
 }

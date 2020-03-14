@@ -39,6 +39,7 @@
   },
   "homepage": "https://github.com/developmatt/healthkids#readme",
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.12.1",
     "formstone": "^1.4.16-1",
     "jquery": "^3.4.1"
   }
