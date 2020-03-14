@@ -4,27 +4,28 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "autoprefixer": "postcss -u autoprefixer -r production/css/*.css",
-    "scss": "node-sass --output-style expanded --indent-width 4 -o production/css development/scss",
-    "uglify": "uglifyjs development/js/*.js -m -o production/js/scripts.js",
-    "serve": "browser-sync start --server --files \"production/css/*.css, production/js/*.js\"",
-    "build:css": "npm run scss && npm run autoprefixer",
-    "build:js": "npm run uglify",
-    "build:all": "npm run build:css && npm run build:js",
-    "watch:css": "onchange \"development/scss\" -- npm run build:css",
-    "watch:js": "onchange \"development/js\" -- npm run build:js",
-    "watch:all": "npm-run-all -p watch:css watch:js && npm run sync",
-    "start": "npm run build:all && npm run watch:all",
-    "sync": "browser-sync start --server --files production/css/index.css index.html"
+    "dev": "webpack",
+    "prod": "cross-env NODE_ENV=production webpack",
+    "watch": "webpack --watch",
+    "sync": "browser-sync start --server --files assets/bundle.js assets/bundle.css index.html"
   },
   "devDependencies": {
-    "autoprefixer": "^6.7.6",
+    "@babel/core": "^7.3.3",
+    "@babel/runtime-corejs2": "^7.3.1",
+    "@wordpress/babel-preset-default": "^3.0.2",
+    "autoprefixer": "^9.4.7",
+    "babel-loader": "^8.0.5",
     "browser-sync": "^2.26.7",
-    "node-sass": "^4.5.0",
-    "npm-run-all": "^4.0.2",
-    "onchange": "^3.2.1",
-    "postcss-cli": "^3.0.0-beta",
-    "uglify-js": "^2.8.3"
+    "cross-env": "^5.2.0",
+    "css-loader": "^2.1.0",
+    "extract-loader": "^3.1.0",
+    "file-loader": "^3.0.1",
+    "node-sass": "^4.11.0",
+    "postcss-cli": "^6.1.1",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^7.1.0",
+    "webpack": "^4.29.5",
+    "webpack-cli": "^3.2.3"
   },
   "repository": {
     "type": "git",
@@ -36,5 +37,9 @@
   "bugs": {
     "url": "https://github.com/developmatt/healthkids/issues"
   },
-  "homepage": "https://github.com/developmatt/healthkids#readme"
+  "homepage": "https://github.com/developmatt/healthkids#readme",
+  "dependencies": {
+    "formstone": "^1.4.16-1",
+    "jquery": "^3.4.1"
+  }
 }
