@@ -1,16 +1,17 @@
-@import './config.scss';
-@import './colors.scss';
-@import './fonts.scss';
-@import './button.scss';
-@import './main.scss';
-@import './advantages.scss';
-@import './comments.scss';
-@import './best.scss';
+@import "./config.scss";
+@import "./colors.scss";
+@import "./fonts.scss";
+@import "./button.scss";
+@import "./main.scss";
+@import "./advantages.scss";
+@import "./comments.scss";
+@import "./best.scss";
+@import "./release.scss";
 
 * {
-    font-family: $font-gotham;
+  font-family: $font-gotham;
 }
 
 body {
-    border-top: solid 10px $purple;
+  border-top: solid 10px $purple;
 }

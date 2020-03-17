@@ -1,104 +1,103 @@
-@import './colors.scss';
-@import '../../node_modules/formstone/dist/css/carousel.css';
+@import "./colors.scss";
+@import "../../node_modules/formstone/dist/css/carousel.css";
 
 .comments {
-    width: 100%;
-    height: 440px;
-    background-image: url('/images/comments_background.png');
-    background-size: auto 100%;
-    background-position: center;
-    padding-top: 40px;
+  width: 100%;
+  height: 440px;
+  background-image: url("/images/comments_background.png");
+  background-size: auto 100%;
+  background-position: center;
+  padding-top: 40px;
+  position: relative;
+
+  &__content {
     position: relative;
+    padding: 0 50px;
+    text-align: center;
+  }
 
-    &__content {
-        position: relative;
-        padding: 0 50px;
-        text-align: center;
+  &__title {
+    font-size: 34px;
+    font-weight: 400;
+    color: $blue;
+    text-align: center;
+  }
+
+  &__slider-container {
+    overflow: hidden;
+    margin-top: 20px;
+    padding: 0 10px;
+  }
+
+  &__controller {
+    position: absolute;
+    top: 80px;
+    font-size: 30px;
+    left: 0;
+    color: $blue;
+    cursor: pointer;
+    padding: 10px;
+
+    * {
+      text-shadow: 3px 3px 4px rgba(0, 0, 10, 1);
     }
 
-    &__title {
-        font-size: 34px;
-        font-weight: normal;
-        color: $blue;
-        text-align: center;
-
+    &--right {
+      right: 0;
+      left: auto;
     }
+  }
 
-    &__slider-container {
-        overflow: hidden;
-        margin-top: 20px;
-        padding: 0 10px;
-    }
-
-    &__controller {
-        position: absolute;
-        top: 80px;
-        font-size: 30px;
-        left: 0;
-        color: $blue;
-        cursor: pointer;
-        padding: 10px;
-        
-        * {
-            text-shadow: 3px 3px 4px rgba(0, 0, 10, 1);
-        }
-
-        &--right {
-            right: 0;
-            left: auto;
-        }
-    }
-
-    &__button {
-        display: inline-flex;
-        margin: 0 auto;
-        text-align: center;
-        margin-top: 41px;
-    }
+  &__button {
+    display: inline-flex;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 41px;
+  }
 }
 
 .comment {
-    padding: 0 20px;
+  padding: 0 20px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  color: $blue;
+  text-align: left;
+
+  &__image-container {
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: solid 6px white;
+  }
+
+  &__image {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  &__text-block {
+    width: calc(100% - 120px - 22px);
     display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-    color: $blue;
-    text-align: left;
+    flex-direction: column;
+  }
 
-    &__image-container {
-        width: 120px;
-        height: 120px;
-        overflow: hidden;
-        border-radius: 50%;
-        border: solid 6px white;
-    }
+  &__text {
+    font-size: 18px;
+  }
 
-    &__image {
-        width: 100%;
-        object-fit: cover;
-    }
+  &__name {
+    font-size: 24px;
+    font-weight: 800;
+    margin: 9px 0 4px 0;
+  }
 
-    &__text-block {
-        width: calc(100% - 120px - 22px);
-        display: flex;
-        flex-direction: column;
-    }
-
-    &__text {
-        font-size: 18px;
-    }
-
-    &__name {
-        font-size: 24px;
-        font-weight: bold;
-        margin: 9px 0 4px 0;
-    }
-
-    &__nick {
-        font-size: 16px;
-    }
+  &__nick {
+    font-size: 16px;
+  }
 }
 
 .fa-chevron-right {
-    text-shadow:3px 6px rgba(255,165,0,.75);
+  text-shadow: 3px 6px rgba(255, 165, 0, 0.75);
 }

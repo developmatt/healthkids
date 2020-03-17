@@ -1,21 +1,31 @@
 @font-face {
-	font-family: "GothamRounded";
-    src: url("/fonts/GothamRounded/GothamRoundedBold.ttf") format("truetype");
-    font-weight: bold;
+  font-family: "GothamRounded";
+  font-style: normal;
+  src: url("/fonts/GothamRounded/GothamRoundedBold.ttf") format("truetype");
+  font-weight: 800;
 }
 
 @font-face {
-	font-family: "GothamRounded";
-    src: url("/fonts/GothamRounded/GothamRoundedLight.ttf") format("truetype");
-    font-weight: lighter;
+  font-family: "GothamRounded";
+  font-style: normal;
+  src: url("/fonts/GothamRounded/GothamRoundedLight.ttf") format("truetype");
+  font-weight: 100;
 }
 
 @font-face {
-	font-family: "GothamRounded";
-    src: url("/fonts/GothamRounded/GothamRoundedMedium.ttf") format("truetype");
-    font-weight: normal;
+  font-family: "GothamRounded";
+  font-style: normal;
+  src: url("/fonts/GothamRounded/GothamRoundedMedium.ttf") format("truetype");
+  font-weight: 400;
 }
 
-@import '../../node_modules/@fortawesome/fontawesome-free/css/all.min.css';
+@font-face {
+  font-family: "GothamRounded";
+  font-style: normal;
+  src: url("/fonts/GothamRounded/GothamRoundedBook.ttf") format("truetype");
+  font-weight: 300;
+}
 
-$font-gotham: 'GothamRounded';
+@import "../../node_modules/@fortawesome/fontawesome-free/css/all.min.css";
+
+$font-gotham: "GothamRounded";
