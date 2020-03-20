@@ -63,6 +63,7 @@
       border-radius: 12px;
       margin-top: 20px;
       padding: 20px;
+      position: relative;
     }
 
     &__image-div {
@@ -125,6 +126,27 @@
 
     &__button {
       margin-top: 10px;
+    }
+
+    &__freight {
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      margin: 0 auto;
+      height: 40px;
+      background-color: $pink;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 1;
+      max-width: 220px;
+      color: white;
+      font-size: 18px;
+      font-weight: 300;
+      border-radius: 4px;
+      border: solid 1px #ba3b70;
+      letter-spacing: 1.09px;
     }
   }
 
