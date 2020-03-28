@@ -1,0 +1,33 @@
+.offer {
+    background-color: $pink;
+    padding: 40px 0;
+
+    .wrapper {
+        text-align: center;
+    }
+
+    &__title {
+        font-weight: 300;
+        font-size: 34px;
+        color: white;
+        text-align: center;
+    }
+
+    &__description {
+        max-width: 645px;
+        margin: 0 auto;
+        font-size: 16px;
+        font-weight: 100;
+        text-align: center;
+        color: white;
+        margin-top: 20px;
+        line-height: 26px;
+        letter-spacing: 0.97px;
+    }
+
+    .btn {
+        max-width: 420px;
+        margin: 20px auto 0 auto;
+        height: 68px;
+    }
+}
