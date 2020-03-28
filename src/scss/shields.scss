@@ -1,0 +1,45 @@
+.shields {
+    margin-top: 10px;
+    .wrapper {
+        padding: 20px 0;
+    }
+
+    &__container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__block {
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .shield {
+        &__image {
+            height: 65px;
+
+            &--shield {
+                height: 100%;
+            }
+
+            &-block {
+                width: 100px;
+                height: 75px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-right: 24px;
+            }
+        }
+
+        &__text {
+            font-size: 20px;
+            line-height: 26px;
+            color: $purple;
+            letter-spacing: 1px;
+        }
+    }
+}

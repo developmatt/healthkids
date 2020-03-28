@@ -7,9 +7,14 @@
 @import "./comments.scss";
 @import "./best.scss";
 @import "./release.scss";
+@import "./shields.scss";
 
 * {
   font-family: $font-gotham;
+}
+
+strong {
+  font-weight: 800;
 }
 
 body {
