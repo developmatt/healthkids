@@ -6,7 +6,6 @@
   height: 770px;
   background-image: url("/images/main-background.png");
   background-position: center;
-  background-repeat: no-repeat;
   background-size: auto 100%;
   position: relative;
 
@@ -35,10 +34,14 @@
     &-link {
       padding: 15px 20px;
       cursor: pointer;
+      color: $purple;
     }
 
     &:last-of-type {
       margin-left: 15px;
+        a {
+          color: #fff;
+        }
     }
   }
 

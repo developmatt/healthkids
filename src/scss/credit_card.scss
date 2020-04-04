@@ -37,11 +37,40 @@
         background-color: white;
         border-radius: 4px;
         box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3);
+        background-position: center;
 
         &-row {
             display: flex;
             align-items: center;
             justify-content: space-between;
+        }
+
+        &--visa {
+            background-image: url('/images/visa.png');
+        }
+
+        &--slip {
+            background-image: url('/images/slip.jpg');
+        }
+
+        &--hypercard {
+            background-image: url('/images/hypercard.png');
+        }
+
+        &--american {
+            background-image: url('/images/american.png');
+        }
+
+        &--master {
+            background-image: url('/images/master.png');
+        }
+
+        &--dinners {
+            background-image: url('/images/dinners.png');
+        }
+
+        &--elo {
+            background-image: url('/images/elo.png');
         }
     }
 

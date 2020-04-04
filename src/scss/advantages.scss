@@ -30,6 +30,7 @@
     padding-bottom: 25px;
     border-radius: 12px;
     overflow: hidden;
+    position: relative;
 
     &-title {
       font-size: 24px;
@@ -50,5 +51,12 @@
         font-weight: 800;
       }
     }
+  }
+
+  &__image {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: .16;
   }
 }
