@@ -394,12 +394,13 @@
       position: relative;
       display: flex;
       align-items: center;
-      justify-content: center; }
+      justify-content: center;
+      overflow: hidden; }
     .release .column__image {
       -o-object-fit: cover;
          object-fit: cover;
       max-width: 100%;
-      height: calc(100% + 2px); }
+      height: 100%; }
     .release .column__data-row {
       display: flex;
       font-weight: 300;

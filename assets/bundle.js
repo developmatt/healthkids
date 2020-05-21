@@ -203,7 +203,7 @@ eval("var g;\n\n// This works in non-strict mode\ng = (function() {\n\treturn th
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("var $ = __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jquery.js\")\r\n__webpack_require__(/*! formstone/dist/js/core.js */ \"./node_modules/formstone/dist/js/core.js\")\r\n__webpack_require__(/*! formstone/dist/js/mediaquery.js */ \"./node_modules/formstone/dist/js/mediaquery.js\")\r\n__webpack_require__(/*! formstone/dist/js/touch.js */ \"./node_modules/formstone/dist/js/touch.js\")\r\n__webpack_require__(/*! formstone/dist/js/carousel.js */ \"./node_modules/formstone/dist/js/carousel.js\")\r\n\r\n$(\".carousel\").carousel({\r\n    paged: true,\r\n    show: 2,\r\n    pagination: false,\r\n    controls: {\r\n        \"previous\": \".comments__previous\",\r\n        \"next\": \".comments__next\"\r\n    },\r\n});\n\n//# sourceURL=webpack:///./src/js/comments.js?");
+eval("var $ = __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jquery.js\")\n__webpack_require__(/*! formstone/dist/js/core.js */ \"./node_modules/formstone/dist/js/core.js\")\n__webpack_require__(/*! formstone/dist/js/mediaquery.js */ \"./node_modules/formstone/dist/js/mediaquery.js\")\n__webpack_require__(/*! formstone/dist/js/touch.js */ \"./node_modules/formstone/dist/js/touch.js\")\n__webpack_require__(/*! formstone/dist/js/carousel.js */ \"./node_modules/formstone/dist/js/carousel.js\")\n\n$(\".carousel\").carousel({\n    paged: true,\n    show: 2,\n    pagination: false,\n    controls: {\n        \"previous\": \".comments__previous\",\n        \"next\": \".comments__next\"\n    },\n});\n\n//# sourceURL=webpack:///./src/js/comments.js?");
 
 /***/ }),
 
@@ -214,7 +214,7 @@ eval("var $ = __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jqu
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("__webpack_require__(/*! @fortawesome/fontawesome-free/js/all */ \"./node_modules/@fortawesome/fontawesome-free/js/all.js\")\r\n__webpack_require__(/*! ./comments */ \"./src/js/comments.js\")\n\n//# sourceURL=webpack:///./src/js/main.js?");
+eval("__webpack_require__(/*! @fortawesome/fontawesome-free/js/all */ \"./node_modules/@fortawesome/fontawesome-free/js/all.js\")\n__webpack_require__(/*! ./comments */ \"./src/js/comments.js\")\n\n//# sourceURL=webpack:///./src/js/main.js?");
 
 /***/ }),
 
