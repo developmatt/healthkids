@@ -258,18 +258,72 @@
     </div>
   </section>
 
-  <section id="release" class="release">
-    <h2 class="release__title">APROVEITE ESSE <span class="bold">LANÇAMENTO</span></h2>
+  <?php
+    $currentRelease = [];
+    $arrayRelease = [
+      [
+        'image_url' => 'http://localhost:3000/images/bottle1.png',
+        'price' => '127',
+        'price_cents' => '00',
+        'selling_champion' => false,
+        'off' => false,
+        'free_freight' => false,
+        'ammount' => 1
+      ],
+      [
+        'image_url' => 'http://localhost:3000/images/bottle2.png',
+        'price' => '200',
+        'price_cents' => '66',
+        'selling_champion' => true,
+        'off' => 21,
+        'free_freight' => false,
+        'ammount' => 2
+      ],
+      [
+        'image_url' => 'http://localhost:3000/images/bottle3.png',
+        'price' => '327',
+        'price_cents' => '00',
+        'selling_champion' => false,
+        'off' => false,
+        'free_freight' => true,
+        'ammount' => 3
+      ]
+    ];
+  ?>
 
-    <h3 class="release__subtitle">Polivitamínico infantil delicioso para crianças.
-      Suplemento alimentar em <span class="bold">pastilha de goma</span>.</h3>
 
+<section id="release" class="release">
+  <h2 class="release__title">APROVEITE ESSE <span class="bold">LANÇAMENTO</span></h2>
+  
+  <h3 class="release__subtitle">Polivitamínico infantil delicioso para crianças.
+    Suplemento alimentar em <span class="bold">pastilha de goma</span>.</h3>
+    
     <div class="wrapper column__container">
+      
+      <?php foreach($arrayRelease as $currentRelease) :  ?>
+      
       <div class="column">
-        <span class="column__title">COMPRE 1</span>
+        <span class="column__title">COMPRE <?= $currentRelease['ammount'] ?></span>
         <div class="column__card">
+          <?php if($currentRelease['selling_champion']) : ?>
+            <span class="column__subtitle">CAMPEÃO DE VENDAS</span>
+          <?php endif; ?>
+
+          <?php if($currentRelease['free_freight']) : ?>
+            <span class="column__freight">
+              <span class="column__freight-text">FRETE GRÁTIS</span>
+            </span>
+          <?php endif; ?>
+
           <div class="column__image-div">
-            <img src="/images/bottle1.png" alt="" class="column__image">
+            <img src="<?= $currentRelease['image_url'] ?>" alt="" class="column__image">
+
+            <?php if($currentRelease['off'] != false) : ?>
+              <div class="discount__badge">
+                <span class="discount__row discount__value">21<span class="small">%</span></span>
+                <span class="discount__row discount__text">OFF</span>
+              </div>
+            <?php endif; ?>
           </div>
           <div class="column__data-row">
             <div class="column__data">
@@ -277,7 +331,7 @@
                 <span class="bold"><span class="big">3</span>X</span> SEM<br>JUROS DE</span></div>
             <div class="column__data">
               <span class="column__data--value">
-                <span class="column__data--cypher">R$</span>127</span><span class="column__data--cents">,00</span>
+                <span class="column__data--cypher">R$</span><?= $currentRelease['price'] ?></span><span class="column__data--cents">,<?= $currentRelease['price_cents'] ?></span>
             </div>
 
           </div>
@@ -286,55 +340,8 @@
         </div>
       </div>
 
-      <div class="column">
-        <span class="column__title">COMPRE 2</span>
-        <div class="column__card">
-          <span class="column__subtitle">CAMPEÃO DE VENDAS</span>
-          <div class="column__image-div">
-            <img src="/images/bottle2.png" alt="" class="column__image">
-            <div class="discount__badge">
-              <span class="discount__row discount__value">21<span class="small">%</span></span>
-              <span class="discount__row discount__text">OFF</span>
-            </div>
-          </div>
-          <div class="column__data-row">
-            <div class="column__data">
-              <span class="column__data--parcels">
-                <span class="bold"><span class="big">3</span>X</span> SEM<br>JUROS DE</span></div>
-            <div class="column__data">
-              <span class="column__data--value">
-                <span class="column__data--cypher">R$</span>200</span><span class="column__data--cents">,66</span>
-            </div>
+      <?php endforeach; ?>
 
-          </div>
-
-          <a href="#" class="btn btn-pink column__button">COMPRAR AGORA</a>
-        </div>
-      </div>
-
-      <div class="column">
-        <span class="column__title">COMPRE 3</span>
-        <div class="column__card">
-          <span class="column__freight">
-            <span class="column__freight-text">FRETE GRÁTIS</span>
-          </span>
-          <div class="column__image-div">
-            <img src="/images/bottle3.png" alt="" class="column__image">
-          </div>
-          <div class="column__data-row">
-            <div class="column__data">
-              <span class="column__data--parcels">
-                <span class="bold"><span class="big">3</span>X</span> SEM<br>JUROS DE</span></div>
-            <div class="column__data">
-              <span class="column__data--value">
-                <span class="column__data--cypher">R$</span>327</span><span class="column__data--cents">,00</span>
-            </div>
-
-          </div>
-
-          <a href="#" class="btn btn-pink column__button">COMPRAR AGORA</a>
-        </div>
-      </div>
     </div>
   </section>
 

@@ -7,7 +7,7 @@
     "dev": "webpack",
     "prod": "cross-env NODE_ENV=production webpack",
     "watch": "webpack --watch",
-    "sync": "browser-sync start --server --files assets/bundle.js assets/bundle.css index.html"
+    "sync": "browser-sync start --server --files assets/bundle.js assets/bundle.css index.php"
   },
   "devDependencies": {
     "@babel/core": "^7.3.3",
