@@ -1,8 +1,8 @@
 .release {
   width: 100%;
-  height: 720px;
+  min-height: 720px;
   background: linear-gradient(to bottom, $purple2, $purple);
-  padding-top: 35px;
+  padding: 35px 0 47px 0;
 
   &__title {
     font-size: 34px;
@@ -91,12 +91,14 @@
         align-items: center;
         justify-content: space-between;
         margin-top: 24px;
+        flex-wrap: wrap;
       }
 
       &--parcels {
         color: $pink;
         font-size: 18px;
         max-width: 160px;
+        min-width: 104px;
         letter-spacing: 1.09px;
 
         .bold {
@@ -180,6 +182,18 @@
 
     &__text {
       font-weight: 800;
+    }
+  }
+}
+
+@media screen and (max-width: 1110px) {
+  .release {
+    .column__data-row {
+      flex-direction: column;
+    }
+
+    .column__data--parcels {
+      max-width: auto;
     }
   }
 }
