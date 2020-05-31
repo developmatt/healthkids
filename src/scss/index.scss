@@ -2,15 +2,20 @@
 @import "./colors.scss";
 @import "./fonts.scss";
 @import "./button.scss";
-@import "./main.scss";
-@import "./advantages.scss";
-@import "./comments.scss";
-@import "./best.scss";
-@import "./release.scss";
-@import "./shields.scss";
-@import "./credit_card.scss";
-@import "./offer.scss";
 @import "./footer.scss";
+
+@import "./components/menu.scss";
+
+body.index {
+  @import "./index/main.scss";
+  @import "./index/advantages.scss";
+  @import "./index/comments.scss";
+  @import "./index/best.scss";
+  @import "./index/release.scss";
+  @import "./index/shields.scss";
+  @import "./index/credit_card.scss";
+  @import "./index/offer.scss";
+}
 
 * {
   font-family: $font-gotham;

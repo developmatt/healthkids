@@ -11,18 +11,8 @@
 
 <body class="index">
   <section id="main" class="main">
-    <div id="main__bar" class="main__bar wrapper">
-      <h1><img src="/images/logo-medium.png" alt="" id="main__logo" class="main__logo"></h1>
-
-      <nav id="main__nav" class="main__nav">
-        <ul class="main__list">
-          <li class="main__item"><a href="#" class="main__item-link">Benefícios</a></li>
-          <li class="main__item"><a href="#" class="main__item-link">Depoimentos</a></li>
-          <li class="main__item"><a href="#" class="main__item-link">Como funciona</a></li>
-          <li class="main__item"><a href="#" class="main__item-link btn btn-purple">Ver preços</a></li>
-        </ul>
-      </nav>
-    </div>
+    
+  <?php require('./components/menu.php'); ?>
 
     <div class="main__container wrapper">
       <h2 class="main__title">UM PODEROSÍSSIMO <span class="main__title--bold">POLIVITAMÍNICO INFANTIL!</span> </h2>

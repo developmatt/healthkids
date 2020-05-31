@@ -9,42 +9,6 @@
   background-size: auto 100%;
   position: relative;
 
-  &__logo {
-    width: 200px;
-    margin: 30px 0 0 125px;
-  }
-
-  &__bar {
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-  }
-
-  &__list {
-    list-style: none;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    margin-top: 43px;
-  }
-
-  &__item {
-    display: inline-block;
-
-    &-link {
-      padding: 15px 20px;
-      cursor: pointer;
-      color: $purple;
-    }
-
-    &:last-of-type {
-      margin-left: 15px;
-        a {
-          color: #fff;
-        }
-    }
-  }
-
   &__container {
     display: flex;
     align-items: center;
