@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="assets/bundle.css" />
 </head>
 
-<body>
+<body class="index">
   <section id="main" class="main">
     <div id="main__bar" class="main__bar wrapper">
       <h1><img src="/images/logo-medium.png" alt="" id="main__logo" class="main__logo"></h1>
