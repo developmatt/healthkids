@@ -40,6 +40,9 @@
                 } ?>
         </div>
     </section>
+    
+    <?php require('./components/offer.php'); ?>
+
     </div>
     
     <?php require('./components/footer.php'); ?>

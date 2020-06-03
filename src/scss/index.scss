@@ -5,6 +5,7 @@
 @import "./footer.scss";
 
 @import "./components/menu.scss";
+@import "./components/offer.scss";
 
 body.index {
   @import "./index/main.scss";
@@ -14,7 +15,6 @@ body.index {
   @import "./index/release.scss";
   @import "./index/shields.scss";
   @import "./index/credit_card.scss";
-  @import "./index/offer.scss";
 }
 
 body.doubts {

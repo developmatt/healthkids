@@ -195,6 +195,31 @@
     .menu__item:last-of-type a {
       color: #fff; }
 
+.offer {
+  background-color: #e15b93;
+  padding: 40px 0; }
+  .offer .wrapper {
+    text-align: center; }
+  .offer__title {
+    font-weight: 300;
+    font-size: 34px;
+    color: white;
+    text-align: center; }
+  .offer__description {
+    max-width: 645px;
+    margin: 0 auto;
+    font-size: 16px;
+    font-weight: 100;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    line-height: 26px;
+    letter-spacing: 0.97px; }
+  .offer .btn {
+    max-width: 420px;
+    margin: 20px auto 0 auto;
+    height: 68px; }
+
 body.index { }
   body.index .main {
     width: 100%;
@@ -677,30 +702,6 @@ body.index { }
       background-image: url("/images/icon-correios.png");
       background-size: 100% auto;
       background-position: center; }
-  body.index .offer {
-    background-color: #e15b93;
-    padding: 40px 0; }
-    body.index .offer .wrapper {
-      text-align: center; }
-    body.index .offer__title {
-      font-weight: 300;
-      font-size: 34px;
-      color: white;
-      text-align: center; }
-    body.index .offer__description {
-      max-width: 645px;
-      margin: 0 auto;
-      font-size: 16px;
-      font-weight: 100;
-      text-align: center;
-      color: white;
-      margin-top: 20px;
-      line-height: 26px;
-      letter-spacing: 0.97px; }
-    body.index .offer .btn {
-      max-width: 420px;
-      margin: 20px auto 0 auto;
-      height: 68px; }
 
 body.doubts .doubts {
   padding-top: 40px; }
