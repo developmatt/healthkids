@@ -18,7 +18,7 @@
     &__container {
         display: flex;
         align-items: flex-start;
-        justify-content: space-between;
+        justify-content: center;
         flex-wrap: wrap;
         margin-top: 56px;
     }
@@ -30,6 +30,7 @@
     border-radius: 8px;
     overflow: hidden;
     transition: all 0.3s ease-out;
+    margin: 10px;
 
     &.closed {
         .icon-opened {

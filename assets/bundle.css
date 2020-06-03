@@ -717,7 +717,7 @@ body.doubts .doubts {
   body.doubts .doubts__container {
     display: flex;
     align-items: flex-start;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
     margin-top: 56px; }
 
@@ -726,7 +726,8 @@ body.doubts .doubt {
   border: solid 1px #53acde;
   border-radius: 8px;
   overflow: hidden;
-  transition: all 0.3s ease-out; }
+  transition: all 0.3s ease-out;
+  margin: 10px; }
   body.doubts .doubt.closed .icon-opened {
     display: none; }
   body.doubts .doubt:not(.closed) .icon-closed {
