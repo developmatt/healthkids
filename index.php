@@ -1,9 +1,10 @@
 <?php require('./components/header.php'); ?>
 
 <body class="index">
+  <div id="page-content">
   <section id="main" class="main">
     
-  <?php require('./components/menu.php'); ?>
+    <?php require('./components/menu.php'); ?>
 
     <div class="main__container wrapper">
       <h2 class="main__title">UM PODEROSÍSSIMO <span class="main__title--bold">POLIVITAMÍNICO INFANTIL!</span> </h2>
@@ -273,11 +274,11 @@
   ?>
 
 
-<section id="release" class="release">
-  <h2 class="release__title">APROVEITE ESSE <span class="bold">LANÇAMENTO</span></h2>
-  
-  <h3 class="release__subtitle">Polivitamínico infantil delicioso para crianças.
-    Suplemento alimentar em <span class="bold">pastilha de goma</span>.</h3>
+  <section id="release" class="release">
+    <h2 class="release__title">APROVEITE ESSE <span class="bold">LANÇAMENTO</span></h2>
+    
+    <h3 class="release__subtitle">Polivitamínico infantil delicioso para crianças.
+      Suplemento alimentar em <span class="bold">pastilha de goma</span>.</h3>
     
     <div class="wrapper column__container">
       
@@ -392,6 +393,7 @@
       <a href="#" class="btn btn-large btn-yellow">QUERO COMPRAR</a>
     </div>
   </section>
+  </div>
 
   <?php require('./components/footer.php'); ?>
 
