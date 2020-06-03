@@ -1,4 +1,4 @@
-<div id="menu__bar" class="menu__bar">
+<div id="menu__bar" class="menu__bar menu__bar--internal">
     <div class="menu__wrapper wrapper">
         <h1><img src="/images/logo-medium.png" alt="" id="menu__logo" class="menu__logo"></h1>
 
