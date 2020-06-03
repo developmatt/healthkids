@@ -702,6 +702,56 @@ body.index { }
       margin: 20px auto 0 auto;
       height: 68px; }
 
+body.doubts .doubts {
+  padding-top: 40px; }
+  body.doubts .doubts__title {
+    font-size: 34px;
+    text-align: center;
+    color: #462e72;
+    font-weight: 100; }
+  body.doubts .doubts__description {
+    font-size: 16px;
+    color: gray;
+    margin-top: 20px;
+    text-align: center; }
+  body.doubts .doubts__container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 56px; }
+
+body.doubts .doubt {
+  width: calc(50% - 100px);
+  border: solid 1px #53acde;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: all 0.3s ease-out; }
+  body.doubts .doubt.closed .icon-opened {
+    display: none; }
+  body.doubts .doubt:not(.closed) .icon-closed {
+    display: none; }
+  body.doubts .doubt__label {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    width: 100%;
+    cursor: pointer;
+    background-color: #53acde;
+    padding: 0 20px;
+    color: white;
+    font-size: 18px; }
+  body.doubts .doubt__description {
+    padding: 18px 19px 19px 20px;
+    display: block;
+    font-size: 16px;
+    color: #696969;
+    line-height: 1.5;
+    letter-spacing: 0.97px; }
+    body.doubts .doubt__description-body {
+      display: none; }
+
 * {
   font-family: "GothamRounded"; }
 

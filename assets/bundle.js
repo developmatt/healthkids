@@ -207,6 +207,17 @@ eval("var $ = __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jqu
 
 /***/ }),
 
+/***/ "./src/js/doubts.js":
+/*!**************************!*\
+  !*** ./src/js/doubts.js ***!
+  \**************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("var $ = __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jquery.js\")\n\n$(document).ready(function() {\n    $('.doubt').click(function() {\n        $(this).toggleClass('closed');\n        $(this).find('.doubt__description-body').slideToggle();\n    })\n})\n\n//# sourceURL=webpack:///./src/js/doubts.js?");
+
+/***/ }),
+
 /***/ "./src/js/main.js":
 /*!************************!*\
   !*** ./src/js/main.js ***!
@@ -214,7 +225,7 @@ eval("var $ = __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jqu
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("__webpack_require__(/*! @fortawesome/fontawesome-free/js/all */ \"./node_modules/@fortawesome/fontawesome-free/js/all.js\")\n__webpack_require__(/*! ./comments */ \"./src/js/comments.js\")\n\n//# sourceURL=webpack:///./src/js/main.js?");
+eval("__webpack_require__(/*! @fortawesome/fontawesome-free/js/all */ \"./node_modules/@fortawesome/fontawesome-free/js/all.js\")\n__webpack_require__(/*! ./comments */ \"./src/js/comments.js\")\n__webpack_require__(/*! ./doubts */ \"./src/js/doubts.js\")\n\n//# sourceURL=webpack:///./src/js/main.js?");
 
 /***/ }),
 

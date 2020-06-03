@@ -17,6 +17,10 @@ body.index {
   @import "./index/offer.scss";
 }
 
+body.doubts {
+  @import "./doubts/index.scss";
+}
+
 * {
   font-family: $font-gotham;
 }
