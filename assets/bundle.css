@@ -163,6 +163,11 @@
     display: inline-flex;
     vertical-align: middle; }
 
+.menu__wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between; }
+
 .menu__logo {
   width: 200px;
   margin: 30px 0 0 125px; }
