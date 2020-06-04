@@ -244,7 +244,7 @@
     $currentRelease = [];
     $arrayRelease = [
       [
-        'image_url' => 'http://localhost:3000/images/bottle1.png',
+        'image_url' => '/images/bottle1.png',
         'price' => '127',
         'price_cents' => '00',
         'selling_champion' => false,
@@ -253,7 +253,7 @@
         'ammount' => 1
       ],
       [
-        'image_url' => 'http://localhost:3000/images/bottle2.png',
+        'image_url' => '/images/bottle2.png',
         'price' => '200',
         'price_cents' => '66',
         'selling_champion' => true,
@@ -262,7 +262,7 @@
         'ammount' => 2
       ],
       [
-        'image_url' => 'http://localhost:3000/images/bottle3.png',
+        'image_url' => '/images/bottle3.png',
         'price' => '327',
         'price_cents' => '00',
         'selling_champion' => false,
