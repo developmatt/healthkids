@@ -9,6 +9,11 @@
             require('html/doubts.php');
             break;
 
+
+        case 'terms':
+            require('html/terms.php');
+            break;
+
         default:
             require('html/index.php');
             break;

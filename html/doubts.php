@@ -7,7 +7,7 @@
     </section>
 
     <section class="doubts wrapper">
-        <h2 class="doubts__title">DÚVIDAS FREQUENTES SOBRE HEALTH KIDS</h2>
+        <h2 class="page-title doubts__title">DÚVIDAS FREQUENTES SOBRE HEALTH KIDS</h2>
 
         <h3 class="doubts__description">Tire todas suas dúvidas sobre o Health Kids:</h3>
 
