@@ -6,6 +6,34 @@
     background: url('/images/video-background.png');
     background-size: auto 100%;
     background-position: center;
+
+    &__container {
+        width: 50%;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: center;
+
+        &-text {
+            font-size: 35px;
+            color: $purple;
+            font-weight: 300;
+            max-width: 536px;
+            display: block;
+            text-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+            margin-top: 10px;
+        }
+    }
+
+    &__icon-button {
+        position: absolute;
+        width: 219px;
+        height: 169px;
+        left: calc(50% - 110px);
+        top: 112px;
+        cursor: pointer;
+    }
 }
 
 .main {
