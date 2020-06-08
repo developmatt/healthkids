@@ -1,6 +1,10 @@
 <div id="menu__bar" class="menu__bar menu__bar--internal">
     <div class="menu__wrapper wrapper">
-        <h1><img src="/images/logo-medium.png" alt="" id="menu__logo" class="menu__logo"></h1>
+        <h1>
+            <a href="/" class="menu__link">
+                <img src="/images/logo-medium.png" alt="" id="menu__logo" class="menu__logo">
+            </a>
+        </h1>
 
         <nav id="menu" class="menu">
             <ul class="menu__list">
