@@ -1,0 +1,26 @@
+.composition {
+
+    &__title {
+        margin-top: 40px;
+    }
+
+    &__description {
+        text-align: center;
+        font-size: 16px;
+        color: $gray;
+        font-weight: 300;
+        margin-top: 20px;
+    }
+
+    &__content {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        margin-top: 45px;
+        flex-wrap: wrap;
+    }
+
+    &__image-div {
+        margin-right: 120px;
+    }
+}

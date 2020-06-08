@@ -818,3 +818,23 @@ body.terms .terms__term {
   body.terms .terms__term p {
     font-weight: 300;
     margin-top: 20px; }
+
+body.composition .composition__title {
+  margin-top: 40px; }
+
+body.composition .composition__description {
+  text-align: center;
+  font-size: 16px;
+  color: #696969;
+  font-weight: 300;
+  margin-top: 20px; }
+
+body.composition .composition__content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: 45px;
+  flex-wrap: wrap; }
+
+body.composition .composition__image-div {
+  margin-right: 120px; }

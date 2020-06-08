@@ -9,6 +9,9 @@
             require('html/doubts.php');
             break;
 
+        case 'composition':
+            require('html/composition.php');
+            break;
 
         case 'terms':
             require('html/terms.php');
