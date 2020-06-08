@@ -53,6 +53,16 @@ body.index {
   @import "./index/credit_card.scss";
 }
 
+body.video {
+  @import "./video/main.scss";
+  @import "./index/advantages.scss";
+  @import "./index/comments.scss";
+  @import "./index/best.scss";
+  @import "./index/release.scss";
+  @import "./index/shields.scss";
+  @import "./index/credit_card.scss";
+}
+
 body.doubts {
   @import "./doubts/index.scss";
 }
