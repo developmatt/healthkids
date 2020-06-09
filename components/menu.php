@@ -14,3 +14,41 @@
         </ul>
     </nav>
 </div>
+
+<div id="menu-mobile__bar" class="menu-mobile__bar">
+    <h1>
+        <a href="/" class="menu-mobile__link">
+            <img src="/images/logo-medium.png" alt="" id="menu-mobile__logo" class="menu-mobile__logo">
+        </a>
+    </h1>
+
+    <div class="menu-mobile__hamburger">
+        <i class="fas fa-bars"></i>
+    </div>
+</div>
+
+<div class="menu-mobile__menu">
+    <div class="menu-mobile__header">
+        <span class="menu-mobile__title">MENU</span>
+        <a href="#" class="menu-mobile__close-button"><i class="fas fa-times"></i></a>
+    </div>
+
+    <div class="menu-mobile__body">
+        <div class="menu-mobile__column">
+            <a href="#" class="menu-mobile__link">Benefícios</a>
+            <a href="#" class="menu-mobile__link">Depoimentos</a>
+            <a href="#" class="menu-mobile__link">Como funciona</a>
+
+            <a href="#" class="menu-mobile__button">Ver Preços</a>
+
+            <div class="menu-mobile__social">
+                <span class="menu-mobile__social-title">REDES SOCIAIS</span>
+
+                <div class="menu-mobile__social-icons">
+                    <a href="#" class="menu-mobile__social--icon"><i class="fab fa-facebook-square"></i></a>
+                    <a href="#" class="menu-mobile__social--icon"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

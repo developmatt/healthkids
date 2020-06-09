@@ -4,6 +4,8 @@ require('formstone/dist/js/mediaquery.js')
 require('formstone/dist/js/touch.js')
 require('formstone/dist/js/carousel.js')
 
+require('@fortawesome/fontawesome-free/js/all')
+
 $(".carousel").carousel({
     paged: true,
     show: 2,

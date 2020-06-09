@@ -203,7 +203,7 @@ eval("var g;\n\n// This works in non-strict mode\ng = (function() {\n\treturn th
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("var $ = __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jquery.js\")\n__webpack_require__(/*! formstone/dist/js/core.js */ \"./node_modules/formstone/dist/js/core.js\")\n__webpack_require__(/*! formstone/dist/js/mediaquery.js */ \"./node_modules/formstone/dist/js/mediaquery.js\")\n__webpack_require__(/*! formstone/dist/js/touch.js */ \"./node_modules/formstone/dist/js/touch.js\")\n__webpack_require__(/*! formstone/dist/js/carousel.js */ \"./node_modules/formstone/dist/js/carousel.js\")\n\n$(\".carousel\").carousel({\n    paged: true,\n    show: 2,\n    pagination: false,\n    controls: {\n        \"previous\": \".comments__previous\",\n        \"next\": \".comments__next\"\n    },\n});\n\n//# sourceURL=webpack:///./src/js/comments.js?");
+eval("var $ = __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jquery.js\")\n__webpack_require__(/*! formstone/dist/js/core.js */ \"./node_modules/formstone/dist/js/core.js\")\n__webpack_require__(/*! formstone/dist/js/mediaquery.js */ \"./node_modules/formstone/dist/js/mediaquery.js\")\n__webpack_require__(/*! formstone/dist/js/touch.js */ \"./node_modules/formstone/dist/js/touch.js\")\n__webpack_require__(/*! formstone/dist/js/carousel.js */ \"./node_modules/formstone/dist/js/carousel.js\")\n\n__webpack_require__(/*! @fortawesome/fontawesome-free/js/all */ \"./node_modules/@fortawesome/fontawesome-free/js/all.js\")\n\n$(\".carousel\").carousel({\n    paged: true,\n    show: 2,\n    pagination: false,\n    controls: {\n        \"previous\": \".comments__previous\",\n        \"next\": \".comments__next\"\n    },\n});\n\n//# sourceURL=webpack:///./src/js/comments.js?");
 
 /***/ }),
 
@@ -214,7 +214,7 @@ eval("var $ = __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jqu
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("var $ = __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jquery.js\")\n\n$(document).ready(function() {\n    $('.doubt').click(function() {\n        $(this).toggleClass('closed');\n        $(this).find('.doubt__description-body').slideToggle();\n    })\n})\n\n//# sourceURL=webpack:///./src/js/doubts.js?");
+eval("var $ = __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jquery.js\")\n\n__webpack_require__(/*! @fortawesome/fontawesome-free/js/all */ \"./node_modules/@fortawesome/fontawesome-free/js/all.js\")\n\n$(document).ready(function() {\n    $('.doubt').click(function() {\n        $(this).toggleClass('closed');\n        $(this).find('.doubt__description-body').slideToggle();\n    })\n})\n\n//# sourceURL=webpack:///./src/js/doubts.js?");
 
 /***/ }),
 
@@ -225,7 +225,18 @@ eval("var $ = __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jqu
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("var $ = __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jquery.js\");\n\n__webpack_require__(/*! @fortawesome/fontawesome-free/js/all */ \"./node_modules/@fortawesome/fontawesome-free/js/all.js\")\n__webpack_require__(/*! ./comments */ \"./src/js/comments.js\")\n__webpack_require__(/*! ./doubts */ \"./src/js/doubts.js\")\n\n$(document).ready(function() {\n    console.log(document.height);\n});\n\n//# sourceURL=webpack:///./src/js/main.js?");
+eval("var $ = __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jquery.js\");\n\n__webpack_require__(/*! @fortawesome/fontawesome-free/js/all */ \"./node_modules/@fortawesome/fontawesome-free/js/all.js\")\n__webpack_require__(/*! ./comments */ \"./src/js/comments.js\")\n__webpack_require__(/*! ./doubts */ \"./src/js/doubts.js\")\n__webpack_require__(/*! ./mobile-menu */ \"./src/js/mobile-menu.js\")\n\n//# sourceURL=webpack:///./src/js/main.js?");
+
+/***/ }),
+
+/***/ "./src/js/mobile-menu.js":
+/*!*******************************!*\
+  !*** ./src/js/mobile-menu.js ***!
+  \*******************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("var $ = __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jquery.js\");\n\n$(document).ready(function() {\n    $('.menu-mobile__hamburger').click(function() {\n        $('.menu-mobile__menu').addClass('active');\n    })\n\n    $('.menu-mobile__close-button').click(function() {\n        $('.menu-mobile__menu').removeClass('active');\n    })\n});\n\n//# sourceURL=webpack:///./src/js/mobile-menu.js?");
 
 /***/ }),
 
