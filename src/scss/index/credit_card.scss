@@ -145,3 +145,11 @@
         }
     }
 }
+
+@media screen and (max-width: 500px) {
+    .credit-card__card {
+        width: 38px;
+        height: 25px;
+        background-size: 100%;
+    }
+}

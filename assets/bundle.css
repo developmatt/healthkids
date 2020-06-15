@@ -1015,6 +1015,11 @@ body.index { }
       margin-bottom: 24px; }
     body.index .credit-card__text {
       display: block; } }
+  @media screen and (max-width: 500px) {
+    body.index .credit-card__card {
+      width: 38px;
+      height: 25px;
+      background-size: 100%; } }
 
 body.video { }
   body.video .video {
@@ -1679,6 +1684,11 @@ body.video { }
       margin-bottom: 24px; }
     body.video .credit-card__text {
       display: block; } }
+  @media screen and (max-width: 500px) {
+    body.video .credit-card__card {
+      width: 38px;
+      height: 25px;
+      background-size: 100%; } }
 
 body.doubts .doubts {
   padding-top: 40px; }
