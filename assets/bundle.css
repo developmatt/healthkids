@@ -170,6 +170,26 @@
     display: inline-flex;
     vertical-align: middle; }
 
+@media screen and (max-width: 768px) {
+  .footer__content {
+    flex-wrap: wrap;
+    padding: 40px 20px 0 20px; }
+  .footer__block {
+    width: 50%; }
+    .footer__block--contact {
+      width: 100%; }
+  .footer__ul {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+  .footer__li:before {
+    display: none; }
+  .footer__li-link {
+    padding: 10px 0;
+    display: block; } }
+
 .menu__wrapper {
   display: flex;
   align-items: flex-start;
