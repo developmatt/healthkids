@@ -11,7 +11,7 @@
         <section class="composition-content wrapper">
             <h2 class="composition__title page-title">COMPOSIÇÃO DO HEALTH KIDS</h2>
 
-            <h3 class="composition__description">Abaixo termos do HEALTH KIDS</h3>
+            <h3 class="composition__description">Informação nutricional do HEALTH KIDS</h3>
 
             <div class="composition__content">
                 <div class="composition__image-div">

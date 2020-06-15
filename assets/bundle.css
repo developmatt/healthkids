@@ -1806,6 +1806,20 @@ body.composition .composition__image-div {
   margin-right: 120px; }
 
 @media screen and (max-width: 768px) {
+  body.composition .composition__image-div {
+    display: none; }
+  body.composition .composition__table-div {
+    margin-bottom: 51px; } }
+
+@media screen and (max-width: 550px) {
+  body.composition .composition__table {
+    display: block;
+    width: 100%; }
+    body.composition .composition__table-div {
+      width: calc(100% - 40px);
+      margin: 0 20px 51px 20px; } }
+
+@media screen and (max-width: 768px) {
   .page-title {
     font-size: 24px;
     line-height: 1.33;
