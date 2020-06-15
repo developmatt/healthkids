@@ -882,7 +882,9 @@ body.index { }
       width: 350px;
       margin-bottom: 40px; }
       body.index .release .column__container {
-        flex-direction: column; } }
+        flex-direction: column; }
+      body.index .release .column__button {
+        height: 68px; } }
   body.index .shields {
     margin-top: 10px; }
     body.index .shields .wrapper {
@@ -1544,7 +1546,9 @@ body.video { }
       width: 350px;
       margin-bottom: 40px; }
       body.video .release .column__container {
-        flex-direction: column; } }
+        flex-direction: column; }
+      body.video .release .column__button {
+        height: 68px; } }
   body.video .shields {
     margin-top: 10px; }
     body.video .shields .wrapper {
