@@ -159,3 +159,16 @@
         }
     }
 }
+
+@media screen and (max-width: 500px) {
+    .footer {
+        &__block--logo {
+            width: 100%;
+            text-align: center;
+        }
+
+        &__block--social {
+            margin: 30px 0;
+        }
+    }
+}
