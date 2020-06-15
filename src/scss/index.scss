@@ -74,3 +74,13 @@ body.terms {
 body.composition {
   @import "./composition/index.scss";
 }
+
+@media screen and (max-width: 768px) {
+  .page-title {
+    font-size: 24px;
+    line-height: 1.33;
+    letter-spacing: 1.45px;
+    max-width: 250px;
+    margin: 0 auto;
+  }
+}

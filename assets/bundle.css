@@ -1806,3 +1806,11 @@ body.composition .composition__content {
 
 body.composition .composition__image-div {
   margin-right: 120px; }
+
+@media screen and (max-width: 768px) {
+  .page-title {
+    font-size: 24px;
+    line-height: 1.33;
+    letter-spacing: 1.45px;
+    max-width: 250px;
+    margin: 0 auto; } }
