@@ -827,11 +827,29 @@ body.index { }
         font-size: 20px; }
     body.index .release .discount__text {
       font-weight: 800; }
-  @media screen and (max-width: 1110px) {
+  @media screen and (max-width: 1110px) and (min-width: 769px) {
     body.index .release .column__data-row {
       flex-direction: column; }
     body.index .release .column__data--parcels {
       max-width: auto; } }
+  @media screen and (max-width: 768px) {
+    body.index .release__title {
+      width: 203px;
+      margin-left: auto;
+      margin-right: auto;
+      font-size: 20px;
+      line-height: 1.6;
+      letter-spacing: 1.21px; }
+    body.index .release__subtitle {
+      font-size: 16px;
+      width: 282px;
+      line-height: 1.63;
+      letter-spacing: 0.97px; }
+    body.index .release .column {
+      width: 350px;
+      margin-bottom: 40px; }
+      body.index .release .column__container {
+        flex-direction: column; } }
   body.index .shields {
     margin-top: 10px; }
     body.index .shields .wrapper {
@@ -1384,11 +1402,29 @@ body.video { }
         font-size: 20px; }
     body.video .release .discount__text {
       font-weight: 800; }
-  @media screen and (max-width: 1110px) {
+  @media screen and (max-width: 1110px) and (min-width: 769px) {
     body.video .release .column__data-row {
       flex-direction: column; }
     body.video .release .column__data--parcels {
       max-width: auto; } }
+  @media screen and (max-width: 768px) {
+    body.video .release__title {
+      width: 203px;
+      margin-left: auto;
+      margin-right: auto;
+      font-size: 20px;
+      line-height: 1.6;
+      letter-spacing: 1.21px; }
+    body.video .release__subtitle {
+      font-size: 16px;
+      width: 282px;
+      line-height: 1.63;
+      letter-spacing: 0.97px; }
+    body.video .release .column {
+      width: 350px;
+      margin-bottom: 40px; }
+      body.video .release .column__container {
+        flex-direction: column; } }
   body.video .shields {
     margin-top: 10px; }
     body.video .shields .wrapper {

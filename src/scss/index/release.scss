@@ -186,7 +186,7 @@
   }
 }
 
-@media screen and (max-width: 1110px) {
+@media screen and (max-width: 1110px) and (min-width: 769px) {
   .release {
     .column__data-row {
       flex-direction: column;
@@ -194,6 +194,35 @@
 
     .column__data--parcels {
       max-width: auto;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .release {
+    &__title {
+      width: 203px;
+      margin-left: auto;
+      margin-right: auto;
+      font-size: 20px;
+      line-height: 1.6;
+      letter-spacing: 1.21px;
+    }
+
+    &__subtitle {
+      font-size: 16px;
+      width: 282px;
+      line-height: 1.63;
+      letter-spacing: 0.97px;
+    }
+
+    .column {
+      width: 350px;
+      margin-bottom: 40px;
+
+      &__container {
+        flex-direction: column;
+      }
     }
   }
 }
