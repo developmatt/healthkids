@@ -969,6 +969,17 @@ body.index { }
       background-image: url("/images/icon-correios.png");
       background-size: 100% auto;
       background-position: center; }
+  @media screen and (max-width: 768px) {
+    body.index .credit-card__wrapper {
+      flex-direction: column;
+      padding: 0 20px; }
+    body.index .credit-card__card-row {
+      margin-top: 10px; }
+    body.index .credit-card__block {
+      width: 100%;
+      margin-bottom: 24px; }
+    body.index .credit-card__text {
+      display: block; } }
 
 body.video { }
   body.video .video {
@@ -1554,6 +1565,17 @@ body.video { }
       background-image: url("/images/icon-correios.png");
       background-size: 100% auto;
       background-position: center; }
+  @media screen and (max-width: 768px) {
+    body.video .credit-card__wrapper {
+      flex-direction: column;
+      padding: 0 20px; }
+    body.video .credit-card__card-row {
+      margin-top: 10px; }
+    body.video .credit-card__block {
+      width: 100%;
+      margin-bottom: 24px; }
+    body.video .credit-card__text {
+      display: block; } }
 
 body.doubts .doubts {
   padding-top: 40px; }
