@@ -1118,6 +1118,39 @@ body.video { }
           font-weight: 800; }
         body.video .main__bottom-text--big {
           font-size: 30px; }
+  @media screen and (max-width: 768px) {
+    body.video .video {
+      height: 880px;
+      background-image: url("/images/video-background-mobile.png"); }
+      body.video .video__container {
+        width: 100%;
+        height: 172px;
+        align-items: center; }
+        body.video .video__container-image {
+          width: 305px;
+          height: 172px; }
+        body.video .video__container-text {
+          display: none; }
+          body.video .video__container-text-mobile {
+            font-size: 20px;
+            color: #462e72;
+            width: 315px;
+            margin: 8px auto 72px auto;
+            display: block;
+            text-align: center;
+            line-height: 1.4;
+            letter-spacing: 1.21px; }
+            body.video .video__container-text-mobile--bold {
+              font-weight: 800; }
+      body.video .video__icon-button {
+        left: calc(50% + 86px);
+        right: 0;
+        width: 103px;
+        height: 80px;
+        top: 245px; }
+      body.video .video__image {
+        display: block;
+        width: 100%; } }
   body.video .advantages {
     padding: 41px 0; }
     body.video .advantages__title {

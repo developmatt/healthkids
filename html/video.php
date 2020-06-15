@@ -6,6 +6,8 @@
         <section id="video" class="video">
             <?php require('./components/menu.php'); ?>
 
+            <span class="video__container-text-mobile">UM PODEROSÍSSIMO <span class="video__container-text-mobile--bold">POLIVITAMÍNICO INFANTIL</span></span>
+
             <div class="video__container">
 
                 <img src="/images/video-thumb.png" alt="" class="video__container-image">

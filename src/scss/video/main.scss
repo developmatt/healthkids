@@ -145,3 +145,53 @@
     }
   }
 }
+
+@media screen and (max-width: 768px) {
+  .video {
+    height: 880px;
+    background-image: url('/images/video-background-mobile.png');
+
+    &__container {
+      width: 100%;
+      height: 172px;
+      align-items: center;
+
+      &-image {
+        width: 305px;
+        height: 172px;
+      }
+
+      &-text {
+        display: none;
+
+        &-mobile {
+          font-size: 20px;
+          color: $purple;
+          width: 315px;
+          margin: 8px auto 72px auto;
+          display: block;
+          text-align: center;
+          line-height: 1.4;
+          letter-spacing: 1.21px;
+
+          &--bold {
+            font-weight: 800;
+          }
+        }
+      }
+    }
+
+    &__icon-button {
+      left: calc(50% + 86px);
+      right: 0;
+      width: 103px;
+      height: 80px;
+      top: 245px;
+    }
+
+    &__image {
+      display: block;
+      width: 100%;
+    }
+  }
+}
