@@ -60,3 +60,25 @@
     opacity: .16;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .advantages {
+    &__title {
+      font-size: 24px;
+      font-weight: 300;
+      margin: 0 auto;
+      max-width: 227px;
+      line-height: 1.33;
+      letter-spacing: 1.45px;
+    }
+
+    &__container {
+      flex-direction: column;
+    }
+
+    &__block {
+      width: 340px;
+      margin-bottom: 24px;
+    }
+  }
+}

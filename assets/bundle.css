@@ -527,6 +527,19 @@ body.index { }
       left: 0;
       top: 0;
       opacity: .16; }
+  @media screen and (max-width: 768px) {
+    body.index .advantages__title {
+      font-size: 24px;
+      font-weight: 300;
+      margin: 0 auto;
+      max-width: 227px;
+      line-height: 1.33;
+      letter-spacing: 1.45px; }
+    body.index .advantages__container {
+      flex-direction: column; }
+    body.index .advantages__block {
+      width: 340px;
+      margin-bottom: 24px; } }
   body.index .comments {
     width: 100%;
     min-height: 440px;
@@ -1030,6 +1043,19 @@ body.video { }
       left: 0;
       top: 0;
       opacity: .16; }
+  @media screen and (max-width: 768px) {
+    body.video .advantages__title {
+      font-size: 24px;
+      font-weight: 300;
+      margin: 0 auto;
+      max-width: 227px;
+      line-height: 1.33;
+      letter-spacing: 1.45px; }
+    body.video .advantages__container {
+      flex-direction: column; }
+    body.video .advantages__block {
+      width: 340px;
+      margin-bottom: 24px; } }
   body.video .comments {
     width: 100%;
     min-height: 440px;
