@@ -40,3 +40,12 @@
   background: linear-gradient(to bottom, #f294c5, #e15b93);
   border: solid 1px $pink2;
 }
+
+@media screen and (max-width: 768px) {
+  .btn-large {
+    padding: 0 20px;
+    width: calc(100% - 40px);
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
