@@ -8,7 +8,10 @@ require('@fortawesome/fontawesome-free/js/all')
 
 $(".carousel").carousel({
     paged: true,
-    show: 2,
+    show: {
+        "940px": 1,
+        "941px": 2,
+    },
     pagination: false,
     controls: {
         "previous": ".comments__previous",

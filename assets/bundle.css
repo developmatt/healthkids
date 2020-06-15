@@ -608,6 +608,13 @@ body.index { }
       margin: 9px 0 4px 0; }
     body.index .comment__nick {
       font-size: 16px; }
+  @media screen and (max-width: 530px) {
+    body.index .comment {
+      flex-direction: column;
+      align-items: center; }
+      body.index .comment__text-block {
+        width: 100%;
+        margin-top: 24px; } }
   body.index .fa-chevron-right {
     text-shadow: 3px 6px rgba(255, 165, 0, 0.75); }
   body.index .best {
@@ -1124,6 +1131,13 @@ body.video { }
       margin: 9px 0 4px 0; }
     body.video .comment__nick {
       font-size: 16px; }
+  @media screen and (max-width: 530px) {
+    body.video .comment {
+      flex-direction: column;
+      align-items: center; }
+      body.video .comment__text-block {
+        width: 100%;
+        margin-top: 24px; } }
   body.video .fa-chevron-right {
     text-shadow: 3px 6px rgba(255, 165, 0, 0.75); }
   body.video .best {
