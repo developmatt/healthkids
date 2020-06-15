@@ -880,6 +880,16 @@ body.index { }
       color: #462e72;
       letter-spacing: 1px;
       font-weight: 300; }
+  @media screen and (max-width: 768px) {
+    body.index .shields__container {
+      flex-direction: column; }
+    body.index .shields__block {
+      width: calc(100% - 40px);
+      margin: 10px 20px;
+      max-width: 464px; }
+    body.index .shield__image-block {
+      width: 52px;
+      justify-content: flex-end; } }
   body.index .credit-card {
     margin-bottom: 38px; }
     body.index .credit-card__wrapper {
@@ -1455,6 +1465,16 @@ body.video { }
       color: #462e72;
       letter-spacing: 1px;
       font-weight: 300; }
+  @media screen and (max-width: 768px) {
+    body.video .shields__container {
+      flex-direction: column; }
+    body.video .shields__block {
+      width: calc(100% - 40px);
+      margin: 10px 20px;
+      max-width: 464px; }
+    body.video .shield__image-block {
+      width: 52px;
+      justify-content: flex-end; } }
   body.video .credit-card {
     margin-bottom: 38px; }
     body.video .credit-card__wrapper {
