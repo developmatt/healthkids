@@ -23,6 +23,10 @@
             display: block;
             text-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
             margin-top: 10px;
+
+            &-mobile {
+              display: none;
+            }
         }
     }
 
@@ -165,6 +169,7 @@
         display: none;
 
         &-mobile {
+          display: block;
           font-size: 20px;
           color: $purple;
           width: 315px;
@@ -193,5 +198,54 @@
       display: block;
       width: 100%;
     }
+  }
+
+  .main {
+    height: auto;
+    background-image: none;
+
+    &__subtitle {
+      font-size: 24px;
+      width: 340px;
+      margin: 43px auto 0 auto;
+    }
+
+    &__safe-buy {
+      top: auto;
+      bottom: -100px;
+      left: calc(50% - 100px);
+    }
+
+    &__container {
+      height: 600px;
+      background-image: url('/images/main-background-mobile.png');
+      background-position: bottom center;
+      background-size: 100% auto;
+    }
+
+    &__bottom {
+      position: relative;
+      background-image: none;
+      height: auto;
+      margin: 117px 0 24px 0;
+
+      &-block:first-of-type {
+        margin-right: 0;
+      }
+
+      &-wrapper {
+        flex-direction: column;
+      }
+
+      &-text {
+        color: $purple;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 591px) {
+  .main__container {
+    background-size: auto;
   }
 }
