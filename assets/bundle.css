@@ -976,7 +976,7 @@ body.index { }
       body.index .credit-card__card--american {
         background-image: url("/images/american.png"); }
       body.index .credit-card__card--master {
-        background-image: url("/images/master.png"); }
+        background-image: url("/images/mastercard.png"); }
       body.index .credit-card__card--dinners {
         background-image: url("/images/dinners.png"); }
       body.index .credit-card__card--elo {
@@ -1645,7 +1645,7 @@ body.video { }
       body.video .credit-card__card--american {
         background-image: url("/images/american.png"); }
       body.video .credit-card__card--master {
-        background-image: url("/images/master.png"); }
+        background-image: url("/images/mastercard.png"); }
       body.video .credit-card__card--dinners {
         background-image: url("/images/dinners.png"); }
       body.video .credit-card__card--elo {
