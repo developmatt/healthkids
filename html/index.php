@@ -14,7 +14,7 @@
 
       <a href="#" class="main__button btn btn-large btn-yellow">QUERO COMPRAR</a>
 
-      <img src="./images/selo.png" alt="Selo compra segura" class="main__safe-buy">
+      <img src="./images/selo.webp" alt="Selo compra segura" class="main__safe-buy">
 
 
     </div>

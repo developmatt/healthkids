@@ -29,7 +29,7 @@
                 <h3 class="main__subtitle">Suplemento alimentar em <span class="main__subtitle--bold">PASTILHA DE GOMA</span>
                 </h3>
 
-                <img src="./images/selo.png" alt="Selo compra segura" class="main__safe-buy">
+                <img src="./images/selo.webp" alt="Selo compra segura" class="main__safe-buy">
             </div>
 
             <div class="main__bottom">
