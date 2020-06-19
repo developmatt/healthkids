@@ -5,7 +5,7 @@
 
         <div class="footer__content">
           <div class="footer__block footer__block--logo">
-            <img src="/images/logo-medium.png" alt="" class="footer__logo">
+            <img src="/images/logo-medium.webp" alt="" class="footer__logo">
           </div>
           <div class="footer__block footer__block--social footer-social__block">
             <span class="footer-social__title">REDES SOCIAIS</span>
