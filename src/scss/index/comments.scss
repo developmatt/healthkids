@@ -4,7 +4,7 @@
 .comments {
   width: 100%;
   min-height: 440px;
-  background-image: url("/images/comments_background.png");
+  background-image: url("/images/comments_background.webp");
   background-size: auto 100%;
   background-position: center;
   padding: 40px 0 55px 0;
@@ -30,7 +30,12 @@
   }
 
   &__controller {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: absolute;
+    height: 40px;
+    width: 40px;
     top: 80px;
     font-size: 30px;
     left: 0;
@@ -39,7 +44,11 @@
     padding: 10px;
 
     * {
-      text-shadow: 3px 3px 4px rgba(0, 0, 10, 1);
+      transition: .2s;
+    }
+
+    *:hover {
+      font-size: 35px;
     }
 
     &--right {
@@ -129,8 +138,4 @@
       margin-top: 24px;
     }
   }
-}
-
-.fa-chevron-right {
-  text-shadow: 3px 6px rgba(255, 165, 0, 0.75);
 }

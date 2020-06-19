@@ -3,6 +3,7 @@
   font-style: normal;
   src: url("/fonts/GothamRounded/GothamRoundedBold.ttf") format("truetype");
   font-weight: 800;
+  font-display: swap;
 }
 
 @font-face {
@@ -10,6 +11,7 @@
   font-style: normal;
   src: url("/fonts/GothamRounded/GothamRoundedLight.ttf") format("truetype");
   font-weight: 100;
+  font-display: swap;
 }
 
 @font-face {
@@ -17,6 +19,7 @@
   font-style: normal;
   src: url("/fonts/GothamRounded/GothamRoundedMedium.ttf") format("truetype");
   font-weight: 400;
+  font-display: swap;
 }
 
 @font-face {
@@ -24,8 +27,20 @@
   font-style: normal;
   src: url("/fonts/GothamRounded/GothamRoundedBook.ttf") format("truetype");
   font-weight: 300;
+  font-display: swap;
 }
 
-@import "../../node_modules/@fortawesome/fontawesome-free/css/all.min.css";
-
 $font-gotham: "GothamRounded";
+
+$fa-font-path: "/fonts/fontawesome";
+@font-face {
+  font-family: 'FontAwesome';
+  font-display: swap;
+  src: url('#{$fa-font-path}/fontawesome-webfont.ttf');
+  src: url('#{$fa-font-path}/fontawesome-webfont.woff2') format('woff2'),
+    url('#{$fa-font-path}/fontawesome-webfont.woff') format('woff'),
+    url('#{$fa-font-path}/fontawesome-webfont.ttf') format('truetype');
+//  src: url('#{$fa-font-path}/FontAwesome.otf') format('opentype'); // used when developing fonts
+  font-weight: normal;
+  font-style: normal;
+}

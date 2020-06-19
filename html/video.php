@@ -29,7 +29,7 @@
                 <h3 class="main__subtitle">Suplemento alimentar em <span class="main__subtitle--bold">PASTILHA DE GOMA</span>
                 </h3>
 
-                <img src="./images/selo.png" alt="Selo compra segura" class="main__safe-buy">
+                <img src="./images/selo.webp" alt="Selo compra segura" class="main__safe-buy">
             </div>
 
             <div class="main__bottom">
@@ -67,21 +67,21 @@
                 <h3 class="advantages__block-title">VITAMINAS E</br>MINERAIS</h3>
                 <p>Uma única goma <strong>Health Kids</strong> apresenta <strong>10 vitaminas e minerais</strong> essenciais
                 para a complementação alimentar infantil e absorção dos componentes dos alimentos ingeridos.</p>
-                <img src="/images/advantage1.png" alt="Vantagem 1" class="advantages__image">
+                <img src="/images/advantage1.webp" alt="Vantagem 1" class="advantages__image">
             </div>
 
             <div class="advantages__block">
                 <h3 class="advantages__block-title">PASTILHAS DE GOMA</h3>
                 <p>A goma <strong>Health Kids</strong> como veículo para suplementos dietéticos <strong>favorece a ingestão e
                     adesão da criança</strong>. Promovendo um crescimento saudável e livre de doenças com mais facilidade.</p>
-                <img src="/images/advantage2.png" alt="Vantagem 3" class="advantages__image">
+                <img src="/images/advantage2.webp" alt="Vantagem 3" class="advantages__image">
             </div>
 
             <div class="advantages__block">
                 <h3 class="advantages__block-title">SABOR DE FRUTA</h3>
                 <p>A formulação da goma <strong>Health Kids</strong> confere um delicioso sabor de fruta tornando a
                 <strong>suplementação mais gostosa e divertida</strong>. </p>
-                <img src="/images/advantage3.png" alt="Vantagem 3" class="advantages__image">
+                <img src="/images/advantage3.webp" alt="Vantagem 3" class="advantages__image">
             </div>
             </div>
         </section>

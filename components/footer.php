@@ -5,7 +5,7 @@
 
         <div class="footer__content">
           <div class="footer__block footer__block--logo">
-            <img src="/images/logo-medium.png" alt="" class="footer__logo">
+            <img src="/images/logo-medium.webp" alt="" class="footer__logo">
           </div>
           <div class="footer__block footer__block--social footer-social__block">
             <span class="footer-social__title">REDES SOCIAIS</span>
@@ -76,5 +76,6 @@
       <div class="footer__cnpj">CNPJ: 00.000.000/0001-00 • HEALTH KIDS, BELO HORIZONTE-MG</div>
     </section>
 
+    <link rel="stylesheet" href="assets/bundle.css" media="none" onload="if(media!='all')media='all'"><noscript><link rel="stylesheet" href="assets/bundle.css"></noscript>
     <script src="./assets/bundle.js"></script>
   </footer>
