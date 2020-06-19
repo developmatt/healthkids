@@ -1,7 +1,7 @@
 <div id="menu__bar" class="menu__bar wrapper">
     <h1>
-        <a href="/" class="menu__link">
-            <img src="/images/logo-medium.png" alt="" id="menu__logo" class="menu__logo">
+        <a href="/" class="menu__link" name="Logo">
+            <img src="/images/logo-medium.png" alt="Site logo" id="menu__logo" class="menu__logo">
         </a>
     </h1>
 
