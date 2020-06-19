@@ -7,5 +7,5 @@
   <meta name="Description" content="Polivitamínico infantil">
   <title>Document</title>
 
-  <link rel="stylesheet" href="assets/bundle.css" />
+  <link rel="stylesheet" href="assets/bundle.css" media="none" onload="if(media!='all')media='all'"><noscript><link rel="stylesheet" href="assets/bundle.css"></noscript>
 </head>
