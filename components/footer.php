@@ -76,5 +76,6 @@
       <div class="footer__cnpj">CNPJ: 00.000.000/0001-00 • HEALTH KIDS, BELO HORIZONTE-MG</div>
     </section>
 
+    <link rel="stylesheet" href="assets/bundle.css" media="none" onload="if(media!='all')media='all'"><noscript><link rel="stylesheet" href="assets/bundle.css"></noscript>
     <script src="./assets/bundle.js"></script>
   </footer>
