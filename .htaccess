@@ -1,3 +1,11 @@
+<files *.js.gz>
+  AddType "text/javascript" .gz
+  AddEncoding gzip .gz
+</files>
+<files *.css.gz>
+  AddType "text/css" .gz
+  AddEncoding gzip .gz
+</files>
 RewriteEngine on
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
