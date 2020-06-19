@@ -3,7 +3,7 @@
   font-style: normal;
   src: url("/fonts/GothamRounded/GothamRoundedBold.ttf") format("truetype");
   font-weight: 800;
-  font-display: fallback;
+  font-display: swap;
 }
 
 @font-face {
@@ -11,7 +11,7 @@
   font-style: normal;
   src: url("/fonts/GothamRounded/GothamRoundedLight.ttf") format("truetype");
   font-weight: 100;
-  font-display: fallback;
+  font-display: swap;
 }
 
 @font-face {
@@ -19,7 +19,7 @@
   font-style: normal;
   src: url("/fonts/GothamRounded/GothamRoundedMedium.ttf") format("truetype");
   font-weight: 400;
-  font-display: fallback;
+  font-display: swap;
 }
 
 @font-face {
@@ -27,7 +27,7 @@
   font-style: normal;
   src: url("/fonts/GothamRounded/GothamRoundedBook.ttf") format("truetype");
   font-weight: 300;
-  font-display: fallback;
+  font-display: swap;
 }
 
 $font-gotham: "GothamRounded";
