@@ -7,12 +7,12 @@
     <?php require('./components/menu.php'); ?>
 
     <div class="main__container wrapper">
-      <h2 class="main__title">UM PODEROSÍSSIMO <span class="main__title--bold">POLIVITAMÍNICO INFANTIL!</span> </h2>
+      <h2 class="main__title">PODEROSÍSSIMO PARA UM<span class="main__title--bold">SUPER POLIVITAMÍNICO INFANTIL!</span> </h2>
 
-      <h3 class="main__subtitle">Suplemento alimentar em <span class="main__subtitle--bold">pastilha de goma.</span>
+      <h3 class="main__subtitle">Suplemento alimentar em <span class="main__subtitle--bold">Goma de Pectina.</span>
       </h3>
 
-      <a href="#" class="main__button btn btn-large btn-yellow">QUERO COMPRAR</a>
+      <a href="#" class="main__button btn btn-large btn-yellow">QUERO MEU FILHO SAUDÁVEL</a>
 
       <img src="./images/selo.webp" alt="Selo compra segura" class="main__safe-buy">
 
@@ -47,28 +47,31 @@
   </section>
 
   <section id="advantages" class="advantages wrapper">
-    <h2 class="advantages__title">QUAIS SÃO AS VANTAGES DO HEALTH KIDS?</h2>
+    <h2 class="advantages__title">QUAIS SÃO AS VANTAGES DO SUPER VITA KIDS?</h2>
 
     <div class="advantages__container">
       <div class="advantages__block">
+        <div class="advantages__block-image-div">
+          <img src="/images/vegetables-fruits.jpg" class="advantages__block-image" alt="">
+        </div>
         <h3 class="advantages__block-title">VITAMINAS E</br>MINERAIS</h3>
-        <p>Uma única goma <strong>Health Kids</strong> apresenta <strong>10 vitaminas e minerais</strong> essenciais
-          para a complementação alimentar infantil e absorção dos componentes dos alimentos ingeridos.</p>
-        <img src="/images/advantage1.webp" alt="Vantagem 1" class="advantages__image">
+        <p>Duas gomas de <strong>Supervita Kids</strong> apresenta <strong>10 vitaminas e 4 mineirais</strong> essenciais para a complementação alimentar infantil.</p>
       </div>
 
       <div class="advantages__block">
-        <h3 class="advantages__block-title">PASTILHAS DE GOMA</h3>
-        <p>A goma <strong>Health Kids</strong> como veículo para suplementos dietéticos <strong>favorece a ingestão e
-            adesão da criança</strong>. Promovendo um crescimento saudável e livre de doenças com mais facilidade.</p>
-        <img src="/images/advantage2.webp" alt="Vantagem 3" class="advantages__image">
+        <div class="advantages__block-image-div">
+          <img src="/images/gum.jpg" class="advantages__block-image" alt="">
+        </div>
+        <h3 class="advantages__block-title">GOMA DE PECTINA</h3>
+        <p>A goma <strong>Supervita Kids</strong> é feita com <strong>pectina vegetal</strong> são especialmente formuladas pra oferecer um eficiente apoio nutricional complementando a alimentação das crianças.</p>
       </div>
 
       <div class="advantages__block">
-        <h3 class="advantages__block-title">SABOR DE FRUTA</h3>
-        <p>A formulação da goma <strong>Health Kids</strong> confere um delicioso sabor de fruta tornando a
-          <strong>suplementação mais gostosa e divertida</strong>. </p>
-        <img src="/images/advantage3.webp" alt="Vantagem 3" class="advantages__image">
+        <div class="advantages__block-image-div">
+          <img src="/images/kid.jpg" class="advantages__block-image" alt="">
+        </div>
+        <h3 class="advantages__block-title">IMUNIDADE</h3>
+        <p><strong>Supervita Kids</strong> é um produto que juntamente com a alimentação do dia a dia auxilia no aumento da imunidade do seu filho.</p>
       </div>
     </div>
   </section>
