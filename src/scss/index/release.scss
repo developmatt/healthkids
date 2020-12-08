@@ -88,18 +88,23 @@
       &-row {
         display: flex;
         font-weight: 300;
-        align-items: center;
+        align-items: flex-end;
         justify-content: space-between;
         margin-top: 24px;
         flex-wrap: wrap;
       }
 
+      &--parcels-div {
+        margin-bottom: 5px;
+      }
+
       &--parcels {
         color: $pink;
-        font-size: 18px;
+        font-size: 16px;
         max-width: 160px;
         min-width: 104px;
-        letter-spacing: 1.09px;
+        letter-spacing: 0.97px;
+        font-weight: 300;
 
         .bold {
           font-weight: 800;
@@ -113,7 +118,7 @@
       &--value {
         color: $purple;
         font-weight: 800;
-        font-size: 60px;
+        font-size: 50px;
       }
 
       &--cents {
@@ -125,6 +130,8 @@
         font-size: 24px;
         font-weight: 300;
       }
+
+      
     }
 
     &__button {
@@ -135,9 +142,9 @@
       position: absolute;
       left: 0;
       right: 0;
-      top: 0;
+      top: -16px;
       margin: 0 auto;
-      height: 40px;
+      height: 28px;
       background-color: $pink;
       display: flex;
       align-items: center;
@@ -150,6 +157,15 @@
       border-radius: 4px;
       border: solid 1px #ba3b70;
       letter-spacing: 1.09px;
+    }
+
+    &__total {
+      display: block;
+      width: 100%;
+      font-size: 16px;
+      color: #999999;
+      text-align: right;
+      margin-top: 2px;
     }
   }
 
@@ -183,6 +199,10 @@
     &__text {
       font-weight: 800;
     }
+  }
+
+  .striked {
+    text-decoration: line-through;
   }
 }
 

@@ -72,6 +72,10 @@
     top: 0;
     opacity: .16;
   }
+
+  &__button {
+    max-width: 440px;
+  }
 }
 
 @media screen and (max-width: 768px) {

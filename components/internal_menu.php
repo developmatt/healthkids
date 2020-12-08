@@ -2,7 +2,7 @@
     <div class="menu__wrapper wrapper">
         <h1>
             <a href="/" class="menu__link">
-                <img src="/images/logo-medium.webp" alt="" id="menu__logo" class="menu__logo">
+                <img src="/images/logo-medium.png" alt="" id="menu__logo" class="menu__logo">
             </a>
         </h1>
 
@@ -20,7 +20,7 @@
 <div id="menu-mobile__bar" class="menu-mobile__bar menu-mobile__bar--internal">
     <h1>
         <a href="/" class="menu-mobile__link">
-            <img src="/images/logo-medium.webp" alt="" id="menu-mobile__logo" class="menu-mobile__logo">
+            <img src="/images/logo-medium.png" alt="" id="menu-mobile__logo" class="menu-mobile__logo">
         </a>
     </h1>
 

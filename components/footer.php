@@ -5,7 +5,7 @@
 
         <div class="footer__content">
           <div class="footer__block footer__block--logo">
-            <img src="/images/logo-medium.webp" alt="" class="footer__logo">
+            <img src="/images/logo-medium.png" alt="" class="footer__logo">
           </div>
           <div class="footer__block footer__block--social footer-social__block">
             <span class="footer-social__title">REDES SOCIAIS</span>
@@ -16,7 +16,7 @@
                   <span class="footer-social__icon-block">
                     <i class="fab fa-facebook-square"></i>
                   </span>
-                  <span class="footer-social__text">/healthkids</span>
+                  <span class="footer-social__text">/supervitakids</span>
                 </a>
               </li>
 
@@ -25,7 +25,7 @@
                   <span class="footer-social__icon-block">
                     <i class="fab fa-instagram"></i>
                   </span>
-                  <span class="footer-social__text">@healthkids</span>
+                  <span class="footer-social__text">@supervitakids</span>
                 </a>
               </li>
             </ul>
@@ -35,21 +35,12 @@
 
             <ul class="footer-social__ul">
               <li class="footer-social__li">
-                <a href="#" class="footer-social__a">
+                <div href="#" class="footer-social__a">
                   <span class="footer-social__icon-block">
                     <i class="fas fa-phone-volume"></i>
                   </span>
-                  <span class="footer-social__text">0800 000 0000</span>
-                </a>
-              </li>
-
-              <li class="footer-social__li">
-                <a href="#" class="footer-social__a">
-                  <span class="footer-social__icon-block">
-                    <i class="fab fa-whatsapp"></i>
-                  </span>
-                  <span class="footer-social__text">99999-9999</span>
-                </a>
+                  <a href="tel:+5531995292606" class="footer-social__text">31 99529-2606</a>
+                </div>
               </li>
 
               <li class="footer-social__li">
@@ -57,7 +48,7 @@
                   <span class="footer-social__icon-block">
                     <i class="far fa-envelope"></i>
                   </span>
-                  <span class="footer-social__text">contato@healthkids.com.br</span>
+                  <span class="footer-social__text">atendimento@nwse.com.br</span>
                 </a>
               </li>
             </ul>
@@ -73,7 +64,7 @@
         </div>
       </div>
 
-      <div class="footer__cnpj">CNPJ: 00.000.000/0001-00 • HEALTH KIDS, BELO HORIZONTE-MG</div>
+      <div class="footer__cnpj">CNPJ: 37.877.053/0001-03 • SUPERVITA KIDS, BELO HORIZONTE-MG</div>
     </section>
 
     <link rel="stylesheet" href="assets/bundle.css" media="none" onload="if(media!='all')media='all'"><noscript><link rel="stylesheet" href="assets/bundle.css"></noscript>

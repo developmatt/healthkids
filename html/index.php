@@ -74,11 +74,13 @@
         <p><strong>Supervita Kids</strong> é um produto que juntamente com a alimentação do dia a dia auxilia no aumento da imunidade do seu filho.</p>
       </div>
     </div>
+
+    <a href="#" class="advantages__button btn btn-large btn-yellow">QUERO MEU FILHO SAUDÁVEL</a>
   </section>
 
   <section class="comments">
     <div class="comments__content wrapper">
-      <h2 class="comments__title">O QUE DIZEM DO HEALTH KIDS?</h2>
+      <h2 class="comments__title">O QUE DIZEM DO SUPERVITA KIDS?</h2>
 
       <div class="comments__slider-container">
         <div class="carousel">
@@ -191,7 +193,7 @@
           class="fas fa-chevron-right"></i></span>
 
 
-      <a href="#" class="comments__button btn btn-large btn-yellow">QUERO COMPRAR</a>
+      <a href="#" class="comments__button btn btn-large btn-yellow">QUERO MEU FILHO SAUDÁVEL</a>
 
 
     </div>
@@ -206,38 +208,34 @@
 
         <div class="best__text-container">
           <h3 class="best__text-title">Fórmula exclusiva</h3>
-          <p class="best__text">A fórmula exclusiva do Health Kids conta com minerais quelatados proporcionando até 90%
-            de absorção. Componentes naturais, com baixo teor de açucar e sem glúten.</p>
+          <p class="best__text">A fórmula exclusiva do Supervita Kids conta com minerais quelatados proporcionando até 90% de absorção. Componentes naturais com mínimo teor de açucar e sem glúten.</p>
         </div>
       </div>
 
       <div class="best__block">
-        <img src="/images/s-flying.png" alt="Morango com roupa de super herói voando" class="best__image">
+        <img src="/images/point-grape.png" alt="Morango com roupa de super herói voando" class="best__image">
 
         <div class="best__text-container">
-          <h3 class="best__text-title">Deliciosa Bala de Goma</h3>
-          <p class="best__text">Polivitamínico infantil feito de pastilha de goma. Uma forma eficiente e gostosa para
-            ajudar a complementar a falta de vitaminas e minerais das crianças. </p>
+          <h3 class="best__text-title">Deliciosa Goma</h3>
+          <p class="best__text">Polivitamínico infantil em goma.</br>Uma forma eficiente e gostosa para ajudar a complementar diariamente a alimentação infantil com vitaminas e mineirais.</p>
         </div>
       </div>
 
       <div class="best__block">
-        <img src="/images/s-flying.png" alt="Morango com roupa de super herói voando" class="best__image">
+        <img src="/images/point-banana.png" alt="Morango com roupa de super herói voando" class="best__image">
 
         <div class="best__text-container">
           <h3 class="best__text-title">Crescimento Saudável</h3>
-          <p class="best__text">As gomas proporcionam a ingestão e absorção de vitaminas e minerais imdispensáveis para
-            o crescimento e desenvolvimento infantil.</p>
+          <p class="best__text">As gomas proporcionam a ingestão e absorção de vitaminas e minerais imdispensáveis para o crescimento e desenvolvimento infantil.</p>
         </div>
       </div>
 
       <div class="best__block">
-        <img src="/images/s-flying.png" alt="Morango com roupa de super herói voando" class="best__image">
+        <img src="/images/point-pear.png" alt="Morango com roupa de super herói voando" class="best__image">
 
         <div class="best__text-container">
           <h3 class="best__text-title">Melhor Alimentação</h3>
-          <p class="best__text">O Health Kids aliado com os alimentos ingeridos no dia a dia proporcionam uma
-            alimentação balanceada, promovendo uma adequação nutricional no organismo. </p>
+          <p class="best__text">O Supervita Kids aliado com os alimentos ingeridos no dia a dia proporcionam uma alimentação balanceada, promovendo uma adequação nutricional no organismo. </p>
         </div>
       </div>
     </div>
@@ -248,30 +246,33 @@
     $arrayRelease = [
       [
         'image_url' => '/images/bottle1.webp',
-        'price' => '127',
-        'price_cents' => '00',
-        'selling_champion' => false,
-        'off' => false,
-        'free_freight' => false,
-        'ammount' => 1
-      ],
-      [
-        'image_url' => '/images/bottle2.webp',
-        'price' => '200',
-        'price_cents' => '66',
-        'selling_champion' => true,
-        'off' => 21,
-        'free_freight' => false,
-        'ammount' => 2
-      ],
-      [
-        'image_url' => '/images/bottle3.webp',
-        'price' => '327',
-        'price_cents' => '00',
+        'price' => '24',
+        'price_cents' => '12',
         'selling_champion' => false,
         'off' => false,
         'free_freight' => true,
-        'ammount' => 3
+        'ammount' => 1,
+        'total' => 'Total: 144,70'
+      ],
+      [
+        'image_url' => '/images/bottle2.webp',
+        'price' => '63',
+        'price_cents' => '66',
+        'selling_champion' => true,
+        'off' => false,
+        'free_freight' => true,
+        'ammount' => 2,
+        'total' => 'De: <span class="striked">434,10</span class="striked"> Por: 378,10'
+      ],
+      [
+        'image_url' => '/images/bottle3.webp',
+        'price' => '101',
+        'price_cents' => '92',
+        'selling_champion' => false,
+        'off' => false,
+        'free_freight' => true,
+        'ammount' => 3,
+        'total' => 'De: <span class="striked">723,50</span class="striked"> Por: 611,50'
       ]
     ];
   ?>
@@ -311,15 +312,16 @@
             <?php endif; ?>
           </div>
           <div class="column__data-row">
-            <div class="column__data">
+            <div class="column__data column__data--parcels-div">
               <span class="column__data--parcels">
-                <span class="bold"><span class="big">3</span>X</span> SEM<br>JUROS DE</span></div>
+                <span class="bold"><span class="big">6</span>X</span> SEM JUROS DE</span></div>
             <div class="column__data">
               <span class="column__data--value">
                 <span class="column__data--cypher">R$</span><?= $currentRelease['price'] ?></span><span class="column__data--cents">,<?= $currentRelease['price_cents'] ?></span>
             </div>
-
           </div>
+
+          <span class="column__total"><?= $currentRelease['total'] ?></span>
 
           <a href="#" class="btn btn-pink column__button">COMPRAR AGORA</a>
         </div>
