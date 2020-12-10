@@ -57,6 +57,7 @@ footer {
 
 body.index {
   @import "./index/main.scss";
+  @import "./index/video.scss";
   @import "./index/advantages.scss";
   @import "./index/comments.scss";
   @import "./index/best.scss";

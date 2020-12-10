@@ -46,6 +46,21 @@
     </div>
   </section>
 
+
+  <section id="video" class="video">
+    <div class="wrapper">
+      <div class="video-container">
+        <iframe width="600" height="338" src="https://www.youtube.com/embed/fNmxNS25Wf4" frameborder="0" allow="picture-in-picture" allowfullscreen></iframe>
+      </div>
+
+      <div class="text-container">
+        <img src="/images/strawberry-play.png" alt="" class="text-container__image">
+        <span class="text-container__text">O melhor <strong>POLIVITAMÍNICO INFANTIL</strong> para o seu filho!</span>
+      </div>
+    </div>
+  </section>
+
+
   <section id="advantages" class="advantages wrapper">
     <h2 class="advantages__title">QUAIS SÃO AS VANTAGES DO SUPER VITA KIDS?</h2>
 
