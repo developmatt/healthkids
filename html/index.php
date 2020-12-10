@@ -7,7 +7,7 @@
     <?php require('./components/menu.php'); ?>
 
     <div class="main__container wrapper">
-      <h2 class="main__title">PODEROSÍSSIMO PARA UM<span class="main__title--bold">SUPER POLIVITAMÍNICO INFANTIL!</span> </h2>
+      <h2 class="main__title">PODEROSÍSSIMO PARA UM<br><span class="main__title--bold">SUPER POLIVITAMÍNICO INFANTIL!</span> </h2>
 
       <h3 class="main__subtitle">Suplemento alimentar em <span class="main__subtitle--bold">Goma de Pectina.</span>
       </h3>
@@ -27,8 +27,8 @@
           </div>
 
           <div class="main__bottom-text-container">
-            <span class="main__bottom-text">ENTREGAMOS PARA TODO <span
-                class="main__bottom-text--bold">BRASIL</span></span>
+            <span class="main__bottom-text"><strong>FRETE GRÁTIS</strong> PARA TODO <strong>BRASIL</strong></span>
+            <span class="main__bottom-text main__bottom-text--small">Por tempo limitado</span>
           </div>
         </div>
 
@@ -38,7 +38,7 @@
           </div>
 
           <div class="main__bottom-text-container">
-            <span class="main__bottom-text"><span class="main__bottom-text--bold main__bottom-text--big">3x</span> SEM
+            <span class="main__bottom-text"><span class="main__bottom-text--bold main__bottom-text--big">6x</span> SEM
               JUROS NO CARTÃO DE CRÉDITO</span>
           </div>
         </div>
