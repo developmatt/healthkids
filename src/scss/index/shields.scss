@@ -41,6 +41,13 @@
             color: $purple;
             letter-spacing: 1px;
             font-weight: 300;
+
+            &--small {
+                display: block;
+                font-size: 16px;
+                color: $purple;
+                font-weight: 800;
+            }
         }
     }
 }

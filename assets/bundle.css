@@ -671,7 +671,7 @@ body.index { }
       text-align: center; }
     body.index .comments__title {
       font-size: 34px;
-      font-weight: 400;
+      font-weight: 300;
       color: #00519f;
       text-align: center; }
     body.index .comments__slider-container {
@@ -756,6 +756,7 @@ body.index { }
     body.index .best__title {
       text-align: center;
       font-size: 34px;
+      font-weight: 300;
       color: #e15b93;
       margin-bottom: 19px; }
     body.index .best__container {
@@ -814,6 +815,7 @@ body.index { }
     padding: 35px 0 47px 0; }
     body.index .release__title {
       font-size: 34px;
+      font-weight: 300;
       color: white;
       text-align: center; }
       body.index .release__title .bold {
@@ -860,7 +862,6 @@ body.index { }
       body.index .release .column__image-div {
         width: 100%;
         height: 220px;
-        border: solid 1px #979797;
         border-radius: 8px;
         position: relative;
         display: flex;
@@ -1009,6 +1010,11 @@ body.index { }
       color: #462e72;
       letter-spacing: 1px;
       font-weight: 300; }
+      body.index .shields .shield__text--small {
+        display: block;
+        font-size: 16px;
+        color: #462e72;
+        font-weight: 800; }
   @media screen and (max-width: 768px) {
     body.index .shields__container {
       flex-direction: column; }
@@ -1370,7 +1376,7 @@ body.video { }
       text-align: center; }
     body.video .comments__title {
       font-size: 34px;
-      font-weight: 400;
+      font-weight: 300;
       color: #00519f;
       text-align: center; }
     body.video .comments__slider-container {
@@ -1455,6 +1461,7 @@ body.video { }
     body.video .best__title {
       text-align: center;
       font-size: 34px;
+      font-weight: 300;
       color: #e15b93;
       margin-bottom: 19px; }
     body.video .best__container {
@@ -1513,6 +1520,7 @@ body.video { }
     padding: 35px 0 47px 0; }
     body.video .release__title {
       font-size: 34px;
+      font-weight: 300;
       color: white;
       text-align: center; }
       body.video .release__title .bold {
@@ -1559,7 +1567,6 @@ body.video { }
       body.video .release .column__image-div {
         width: 100%;
         height: 220px;
-        border: solid 1px #979797;
         border-radius: 8px;
         position: relative;
         display: flex;
@@ -1708,6 +1715,11 @@ body.video { }
       color: #462e72;
       letter-spacing: 1px;
       font-weight: 300; }
+      body.video .shields .shield__text--small {
+        display: block;
+        font-size: 16px;
+        color: #462e72;
+        font-weight: 800; }
   @media screen and (max-width: 768px) {
     body.video .shields__container {
       flex-direction: column; }

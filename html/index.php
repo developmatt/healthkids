@@ -215,7 +215,7 @@
   </section>
 
   <section id="best" class="best">
-    <h2 class="best__title">PORQUE O HEALTH KIDS É O MELHOR</h2>
+    <h2 class="best__title">PORQUE O SUPERVITA KIDS É O MELHOR?</h2>
 
     <div class="best__container wrapper">
       <div class="best__block">
@@ -260,7 +260,7 @@
     $currentRelease = [];
     $arrayRelease = [
       [
-        'image_url' => '/images/bottle1.webp',
+        'image_url' => '/images/kit-1.png',
         'price' => '24',
         'price_cents' => '12',
         'selling_champion' => false,
@@ -270,23 +270,23 @@
         'total' => 'Total: 144,70'
       ],
       [
-        'image_url' => '/images/bottle2.webp',
+        'image_url' => '/images/kit-3.png',
         'price' => '63',
         'price_cents' => '66',
         'selling_champion' => true,
         'off' => false,
         'free_freight' => true,
-        'ammount' => 2,
+        'ammount' => 3,
         'total' => 'De: <span class="striked">434,10</span class="striked"> Por: 378,10'
       ],
       [
-        'image_url' => '/images/bottle3.webp',
+        'image_url' => '/images/kit-5.png',
         'price' => '101',
         'price_cents' => '92',
         'selling_champion' => false,
         'off' => false,
         'free_freight' => true,
-        'ammount' => 3,
+        'ammount' => 5,
         'total' => 'De: <span class="striked">723,50</span class="striked"> Por: 611,50'
       ]
     ];
@@ -297,7 +297,7 @@
     <h2 class="release__title">APROVEITE ESSE <span class="bold">LANÇAMENTO</span></h2>
     
     <h3 class="release__subtitle">Polivitamínico infantil delicioso para crianças.
-      Suplemento alimentar em <span class="bold">pastilha de goma</span>.</h3>
+      Suplemento alimentar em <span class="bold">goma de pectina</span>.</h3>
     
     <div class="wrapper column__container">
       
@@ -364,7 +364,8 @@
         </div>
 
         <div class="shield__text-container">
-          <span class="shield__text">ENTREGA PARA <strong>TODO BRASIL</strong></span>
+          <span class="shield__text"><strong>FRETE GRÁTIS</strong> PARA <strong>TODO BRASIL</strong></span>
+          <span class="shield__text--small">Por tempo limitado</span>
         </div>
       </div>
     </div>
@@ -392,7 +393,7 @@
           <img src="/images/icon-pink-card.png" alt="" class="credit-card__parcels-image">
         </div>
         <div class="credit-card__parcels-block">
-          <span class="parcels"><strong class="big">3</strong><strong>x</strong>SEM JUROS <br> NO CARTÃO DE
+          <span class="parcels"><strong class="big">6</strong><strong>x</strong>SEM JUROS <br> NO CARTÃO DE
             CRÉDITO</span>
         </div>
       </div>
