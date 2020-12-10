@@ -39,7 +39,12 @@
                   <span class="footer-social__icon-block">
                     <i class="fas fa-phone-volume"></i>
                   </span>
-                  <a href="tel:+5531995292606" class="footer-social__text">31 99529-2606</a>
+                  <a href="tel:+5531995292606" class="footer-social__text footer-social__text--phone">31 99529-2606</a>
+                  <a href="https://web.whatsapp.com/send?1=pt_br&phone=5531995292606" target="_blank">
+                    <span class="footer-social__icon-block">
+                      <i class="fab fa-whatsapp"></i>
+                    </span>
+                  </a>
                 </div>
               </li>
 

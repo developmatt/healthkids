@@ -106,6 +106,11 @@
     &__text {
         letter-spacing: 0.97px;
         font-weight: 100;
+
+        &--phone {
+            color: #fff;
+            margin-right: 18px;
+        }
     }
 
     &__ul {
