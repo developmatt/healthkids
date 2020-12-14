@@ -6456,17 +6456,20 @@ body.doubts .doubts {
   body.doubts .doubts__container {
     display: flex;
     align-items: flex-start;
-    justify-content: center;
+    justify-content: flex-start;
     flex-wrap: wrap;
-    margin: 56px 0 71px 0; }
+    margin: 56px 0 71px 0;
+    max-width: 1180px; }
 
 body.doubts .doubt {
-  width: calc(50% - 100px);
+  width: calc(50% - 5px);
   border: solid 1px #53acde;
   border-radius: 8px;
   overflow: hidden;
   transition: all 0.3s ease-out;
-  margin: 10px; }
+  margin-bottom: 20px; }
+  body.doubts .doubt:nth-of-type(even) {
+    margin-left: 10px; }
   body.doubts .doubt.closed .icon-opened {
     display: none; }
   body.doubts .doubt:not(.closed) .icon-closed {

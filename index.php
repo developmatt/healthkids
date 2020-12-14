@@ -4,10 +4,6 @@
         case '':
             require('html/index.php');
             break;
-
-        case 'video':
-            require('html/video.php');
-            break;
             
         case 'doubts':
             require('html/doubts.php');

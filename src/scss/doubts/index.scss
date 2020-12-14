@@ -11,19 +11,24 @@
     &__container {
         display: flex;
         align-items: flex-start;
-        justify-content: center;
+        justify-content: flex-start;
         flex-wrap: wrap;
         margin: 56px 0 71px 0;
+        max-width: 1180px;
     }
 }
 
 .doubt {
-    width: calc(50% - 100px);   
+    width: calc(50% - 5px);   
     border: solid 1px $blue2;
     border-radius: 8px;
     overflow: hidden;
     transition: all 0.3s ease-out;
-    margin: 10px;
+    margin-bottom: 20px;
+    
+    &:nth-of-type(even) {
+        margin-left: 10px;
+    }
 
     &.closed {
         .icon-opened {
