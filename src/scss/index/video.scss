@@ -17,6 +17,10 @@
 
     .video-container {
         height: 338px;
+
+        &--mobile {
+            display: none;
+        }
     }
 
     .text-container {
@@ -40,5 +44,9 @@
             top: -38px;
             width: 230px;
         }
+    }
+
+    @media screen and (max-width: 600px) {
+        display: none;
     }
 }

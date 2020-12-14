@@ -4689,10 +4689,11 @@ readers do not read off random characters that represent icons */
 
 @media screen and (max-width: 768px) {
   .btn-large {
-    padding: 0 20px;
-    width: calc(100% - 40px);
-    margin-left: 20px;
-    margin-right: 20px; } }
+    padding: 0;
+    width: calc(100% - 20px);
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 18px; } }
 
 .footer {
   width: 100%;
@@ -4876,7 +4877,8 @@ readers do not read off random characters that represent icons */
       width: 100%;
       text-align: center; }
   .menu-mobile__logo {
-    width: 140px; }
+    width: 170px;
+    margin-bottom: -46px; }
   .menu-mobile__hamburger {
     position: absolute;
     top: 10px;
@@ -5189,6 +5191,8 @@ body.index { }
       padding: 48px 0 54px 0; }
     body.index .video .video-container {
       height: 338px; }
+      body.index .video .video-container--mobile {
+        display: none; }
     body.index .video .text-container {
       height: 338px;
       position: relative;
@@ -5206,6 +5210,9 @@ body.index { }
         left: -18px;
         top: -38px;
         width: 230px; }
+    @media screen and (max-width: 600px) {
+      body.index .video {
+        display: none; } }
   body.index .advantages {
     padding: 41px 0; }
     body.index .advantages__title {
@@ -6582,7 +6589,4 @@ body.composition .composition__image-div {
     line-height: 1.33;
     letter-spacing: 1.45px;
     max-width: 250px;
-    margin: 0 auto; }
-  .wrapper {
-    padding-left: 20px;
-    padding-right: 20px; } }
+    margin: 0 auto; } }
