@@ -4860,7 +4860,7 @@ readers do not read off random characters that represent icons */
 .menu-mobile__bar, .menu-mobile__menu {
   display: none; }
 
-@media screen and (max-width: 1180px) {
+@media screen and (max-width: 1010px) {
   .menu__bar {
     display: none; }
   .menu-mobile__bar {
@@ -6539,15 +6539,24 @@ body.terms .terms__description {
   font-weight: 300;
   margin-top: 20px; }
 
+body.terms .terms__link {
+  color: #53acde; }
+
 body.terms .terms__term {
   font-size: 16px;
   color: #696969;
   line-height: 24px;
   margin: 43px auto 40px auto;
   max-width: 820px; }
+  body.terms .terms__term h3 {
+    margin-top: 10px; }
   body.terms .terms__term p {
     font-weight: 300;
-    margin-top: 20px; }
+    margin-bottom: 20px; }
+
+@media screen and (max-width: 820px) {
+  body.terms .terms-content {
+    padding: 0 20px; } }
 
 body.composition .composition__title {
   margin-top: 40px; }
@@ -6566,8 +6575,14 @@ body.composition .composition__content {
   margin-top: 45px;
   flex-wrap: wrap; }
 
+body.composition .composition__table-div {
+  margin-bottom: 50px; }
+
 body.composition .composition__image-div {
   margin-right: 120px; }
+
+body.composition .composition__image {
+  height: 100%; }
 
 @media screen and (max-width: 768px) {
   body.composition .composition__image-div {

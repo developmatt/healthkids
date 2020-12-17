@@ -148,7 +148,7 @@ eval("var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!\n * jQ
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("var $ = __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jquery.js\")\n__webpack_require__(/*! formstone/dist/js/core.js */ \"./node_modules/formstone/dist/js/core.js\")\n__webpack_require__(/*! formstone/dist/js/mediaquery.js */ \"./node_modules/formstone/dist/js/mediaquery.js\")\n__webpack_require__(/*! formstone/dist/js/touch.js */ \"./node_modules/formstone/dist/js/touch.js\")\n__webpack_require__(/*! formstone/dist/js/carousel.js */ \"./node_modules/formstone/dist/js/carousel.js\")\n\n\n$(\".carousel\").carousel({\n    paged: true,\n    show: {\n        \"940px\": 1,\n        \"941px\": 2,\n    },\n    pagination: false,\n    controls: {\n        \"previous\": \".comments__previous\",\n        \"next\": \".comments__next\"\n    },\n});\n\n//# sourceURL=webpack:///./src/js/comments.js?");
+eval("var $ = __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jquery.js\")\r\n__webpack_require__(/*! formstone/dist/js/core.js */ \"./node_modules/formstone/dist/js/core.js\")\r\n__webpack_require__(/*! formstone/dist/js/mediaquery.js */ \"./node_modules/formstone/dist/js/mediaquery.js\")\r\n__webpack_require__(/*! formstone/dist/js/touch.js */ \"./node_modules/formstone/dist/js/touch.js\")\r\n__webpack_require__(/*! formstone/dist/js/carousel.js */ \"./node_modules/formstone/dist/js/carousel.js\")\r\n\r\n\r\n$(\".carousel\").carousel({\r\n    paged: true,\r\n    show: {\r\n        \"940px\": 1,\r\n        \"941px\": 2,\r\n    },\r\n    pagination: false,\r\n    controls: {\r\n        \"previous\": \".comments__previous\",\r\n        \"next\": \".comments__next\"\r\n    },\r\n});\n\n//# sourceURL=webpack:///./src/js/comments.js?");
 
 /***/ }),
 
@@ -159,7 +159,7 @@ eval("var $ = __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jqu
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("var $ = __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jquery.js\")\n\n$(document).ready(function() {\n    $('.doubt').click(function() {\n        $(this).toggleClass('closed');\n        $(this).find('.doubt__description-body').slideToggle();\n    })\n})\n\n//# sourceURL=webpack:///./src/js/doubts.js?");
+eval("var $ = __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jquery.js\")\r\n\r\n$(document).ready(function() {\r\n    $('.doubt').click(function() {\r\n        $(this).toggleClass('closed');\r\n        $(this).find('.doubt__description-body').slideToggle();\r\n    })\r\n})\n\n//# sourceURL=webpack:///./src/js/doubts.js?");
 
 /***/ }),
 
@@ -170,7 +170,7 @@ eval("var $ = __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jqu
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("var $ = __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jquery.js\");\n\n__webpack_require__(/*! ./comments */ \"./src/js/comments.js\")\n__webpack_require__(/*! ./doubts */ \"./src/js/doubts.js\")\n__webpack_require__(/*! ./mobile-menu */ \"./src/js/mobile-menu.js\")\n\n//# sourceURL=webpack:///./src/js/main.js?");
+eval("var $ = __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jquery.js\");\r\n\r\n__webpack_require__(/*! ./comments */ \"./src/js/comments.js\")\r\n__webpack_require__(/*! ./doubts */ \"./src/js/doubts.js\")\r\n__webpack_require__(/*! ./mobile-menu */ \"./src/js/mobile-menu.js\")\n\n//# sourceURL=webpack:///./src/js/main.js?");
 
 /***/ }),
 
@@ -181,7 +181,7 @@ eval("var $ = __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jqu
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("var $ = __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jquery.js\");\n\n$(document).ready(function() {\n    $('.menu-mobile__hamburger').click(function() {\n        $('.menu-mobile__menu').addClass('active');\n    })\n\n    $('.menu-mobile__close-button').click(function() {\n        $('.menu-mobile__menu').removeClass('active');\n    })\n});\n\n//# sourceURL=webpack:///./src/js/mobile-menu.js?");
+eval("var $ = __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jquery.js\");\r\n\r\n$(document).ready(function() {\r\n    $('.menu-mobile__hamburger').click(function() {\r\n        $('.menu-mobile__menu').addClass('active');\r\n    })\r\n\r\n    $('.menu-mobile__close-button').click(function() {\r\n        $('.menu-mobile__menu').removeClass('active');\r\n    })\r\n});\n\n//# sourceURL=webpack:///./src/js/mobile-menu.js?");
 
 /***/ }),
 
