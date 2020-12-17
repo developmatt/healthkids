@@ -20,8 +20,16 @@
         flex-wrap: wrap;
     }
 
+    &__table-div {
+        margin-bottom: 50px;
+    }
+
     &__image-div {
         margin-right: 120px;
+    }
+
+    &__image {
+        height: 100%;
     }
 }
 

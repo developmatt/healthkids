@@ -19,7 +19,7 @@
                 </div>
 
                 <div class="composition__table-div">
-                <img src="/images/composition-table.png" alt="" class="composition__table">  </div>
+                <img src="/images/composition.png" alt="" class="composition__table">  </div>
             </div>
         </section>
 
