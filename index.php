@@ -21,6 +21,10 @@
             require('html/exchange-terms.php');
             break;
 
+        case 'privacy':
+            require('html/privacy-terms.php');
+            break;
+
         default:
             require('html/index.php');
             break;

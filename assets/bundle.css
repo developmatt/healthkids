@@ -6549,7 +6549,8 @@ body.terms .terms__term {
   margin: 43px auto 40px auto;
   max-width: 820px; }
   body.terms .terms__term h3 {
-    margin-top: 10px; }
+    margin-top: 10px;
+    font-weight: 800; }
   body.terms .terms__term p {
     font-weight: 300;
     margin-bottom: 20px; }
