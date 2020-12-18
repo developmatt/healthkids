@@ -4860,7 +4860,21 @@ readers do not read off random characters that represent icons */
 .menu-mobile__bar, .menu-mobile__menu {
   display: none; }
 
-@media screen and (max-width: 1010px) {
+@media screen and (max-width: 1250px) {
+  .menu__bar {
+    padding: 0 20px; } }
+
+@media screen and (max-width: 1050px) {
+  .menu__logo {
+    margin-left: 0; } }
+
+@media screen and (max-width: 920px) {
+  .menu__list {
+    flex-wrap: wrap; }
+  .menu__item:last-of-type {
+    margin-top: 20px; } }
+
+@media screen and (max-width: 650px) {
   .menu__bar {
     display: none; }
   .menu-mobile__bar {
@@ -5144,7 +5158,11 @@ body.index { }
           letter-spacing: 0.8px;
           font-weight: 300;
           font-size: 16px; }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1100px) {
+    body.index .video .video-container {
+      height: 250px;
+      overflow: hidden; } }
+  @media screen and (max-width: 650px) {
     body.index .main {
       background-image: url("/images/main-background-mobile.png");
       background-position: center;

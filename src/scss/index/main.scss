@@ -132,7 +132,16 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1100px) {
+  .video {
+    .video-container {
+      height: 250px;
+      overflow: hidden;
+    }
+  }
+}
+
+@media screen and (max-width: 650px) {
   .main {
     background-image: url("/images/main-background-mobile.png");
     background-position: center;
