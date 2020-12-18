@@ -17,6 +17,10 @@
             require('html/terms.php');
             break;
 
+        case 'exchange':
+            require('html/exchange-terms.php');
+            break;
+
         default:
             require('html/index.php');
             break;
