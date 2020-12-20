@@ -21,7 +21,7 @@
     margin: 0 10px 16px 10px;
     display: flex;
     width: calc((100% / 3) - 20px);
-    height: 460px;
+    min-height: 460px;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
@@ -76,6 +76,8 @@
 
   &__button {
     max-width: 440px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 

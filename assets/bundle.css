@@ -4811,9 +4811,8 @@ readers do not read off random characters that represent icons */
     display: block; } }
 
 @media screen and (max-width: 500px) {
-  .footer__block--logo {
-    width: 100%;
-    text-align: center; }
+  .footer__block--social .footer-social__text {
+    display: none !important; }
   .footer__block--social {
     margin: 30px 0; } }
 
@@ -5178,7 +5177,7 @@ body.index { }
     body.index .main {
       background-image: url("/images/main-background-mobile.png");
       background-position: center;
-      background-size: auto 100%;
+      background-size: 100% auto;
       height: 800px;
       margin-bottom: 330px; }
       body.index .main__container {
@@ -5207,6 +5206,9 @@ body.index { }
         margin: 0; }
       body.index .main__bottom-text {
         color: #462e72; } }
+  @media screen and (max-width: 520px) {
+    body.index .main {
+      background-size: auto 100%; } }
   body.index .video {
     background-color: white;
     background-image: url("/images/video-background-section.png");
@@ -5240,7 +5242,7 @@ body.index { }
         left: -18px;
         top: -38px;
         width: 230px; }
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 750px) {
       body.index .video {
         display: none; } }
   body.index .advantages {
@@ -5259,7 +5261,7 @@ body.index { }
       margin: 0 10px 16px 10px;
       display: flex;
       width: calc((100% / 3) - 20px);
-      height: 460px;
+      min-height: 460px;
       flex-direction: column;
       align-items: center;
       justify-content: flex-start;
@@ -5300,7 +5302,9 @@ body.index { }
       top: 0;
       opacity: .16; }
     body.index .advantages__button {
-      max-width: 440px; }
+      max-width: 440px;
+      margin-left: auto;
+      margin-right: auto; }
   @media screen and (max-width: 768px) {
     body.index .advantages__title {
       font-size: 24px;
@@ -5445,7 +5449,7 @@ body.index { }
       line-height: 1.33; }
   @media screen and (max-width: 768px) {
     body.index .best__title {
-      width: 187px;
+      width: 100%;
       margin: 0 auto;
       font-size: 24px;
       font-weight: 300;
@@ -5465,6 +5469,9 @@ body.index { }
     body.index .best__text {
       font-size: 16px;
       line-height: 1.5; } }
+  @media screen and (max-width: 768px) {
+    body.index .release .column__data-row {
+      justify-content: center !important; } }
   body.index .release {
     width: 100%;
     min-height: 720px;
@@ -5617,6 +5624,9 @@ body.index { }
       flex-direction: column; }
     body.index .release .column__data--parcels {
       max-width: auto; } }
+  @media screen and (max-width: 990px) {
+    body.index .column__button {
+      text-align: center; } }
   @media screen and (max-width: 768px) {
     body.index .release__title {
       width: 203px;
@@ -5964,7 +5974,7 @@ body.video { }
       margin: 0 10px 16px 10px;
       display: flex;
       width: calc((100% / 3) - 20px);
-      height: 460px;
+      min-height: 460px;
       flex-direction: column;
       align-items: center;
       justify-content: flex-start;
@@ -6005,7 +6015,9 @@ body.video { }
       top: 0;
       opacity: .16; }
     body.video .advantages__button {
-      max-width: 440px; }
+      max-width: 440px;
+      margin-left: auto;
+      margin-right: auto; }
   @media screen and (max-width: 768px) {
     body.video .advantages__title {
       font-size: 24px;
@@ -6150,7 +6162,7 @@ body.video { }
       line-height: 1.33; }
   @media screen and (max-width: 768px) {
     body.video .best__title {
-      width: 187px;
+      width: 100%;
       margin: 0 auto;
       font-size: 24px;
       font-weight: 300;
@@ -6170,6 +6182,9 @@ body.video { }
     body.video .best__text {
       font-size: 16px;
       line-height: 1.5; } }
+  @media screen and (max-width: 768px) {
+    body.video .release .column__data-row {
+      justify-content: center !important; } }
   body.video .release {
     width: 100%;
     min-height: 720px;
@@ -6322,6 +6337,9 @@ body.video { }
       flex-direction: column; }
     body.video .release .column__data--parcels {
       max-width: auto; } }
+  @media screen and (max-width: 990px) {
+    body.video .column__button {
+      text-align: center; } }
   @media screen and (max-width: 768px) {
     body.video .release__title {
       width: 203px;

@@ -166,7 +166,7 @@
   .main {
     background-image: url("/images/main-background-mobile.png");
     background-position: center;
-    background-size: auto 100%;
+    background-size: 100% auto;
     height: 800px;
     margin-bottom: 330px;
 
@@ -211,5 +211,11 @@
     &__bottom-text {
       color: $purple;
     }
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .main {
+    background-size: auto 100%;
   }
 }
