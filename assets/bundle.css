@@ -5162,6 +5162,18 @@ body.index { }
     body.index .video .video-container {
       height: 250px;
       overflow: hidden; } }
+  @media screen and (max-width: 920px) {
+    body.index .main__bottom {
+      height: auto;
+      padding-bottom: 10px; }
+    body.index .main__bottom-wrapper {
+      flex-wrap: wrap;
+      justify-content: center; }
+    body.index .main__bottom-block {
+      width: 100%;
+      justify-content: center;
+      margin-right: 0 !important;
+      padding: 10px 0 0 0; } }
   @media screen and (max-width: 650px) {
     body.index .main {
       background-image: url("/images/main-background-mobile.png");

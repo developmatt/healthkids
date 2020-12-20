@@ -141,6 +141,27 @@
   }
 }
 
+@media screen and (max-width: 920px) {
+  .main {
+    &__bottom {
+      height: auto;
+      padding-bottom: 10px;
+    }
+
+    &__bottom-wrapper {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    &__bottom-block {
+      width: 100%;
+      justify-content: center;
+      margin-right: 0 !important;
+      padding: 10px 0 0 0;
+    }
+  }
+}
+
 @media screen and (max-width: 650px) {
   .main {
     background-image: url("/images/main-background-mobile.png");
