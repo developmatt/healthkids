@@ -72,6 +72,6 @@
       <div class="footer__cnpj">CNPJ: 37.877.053/0001-03 • SUPERVITA KIDS, BELO HORIZONTE-MG</div>
     </section>
 
-    <link rel="stylesheet" href="assets/bundle.css" media="none" onload="if(media!='all')media='all'"><noscript><link rel="stylesheet" href="assets/bundle.css"></noscript>
     <script src="./assets/bundle.js"></script>
+    <style><?php echo file_get_contents(__DIR__.'/../assets/bundle.css'); ?></style>
   </footer>

@@ -103,7 +103,7 @@
 
             <div class="comment">
               <div class="comment__image-container">
-                <img src="https://picsum.photos/100" alt="" class="comment__image">
+                <img src="/images/thispersondoesnotexist.jpeg" alt="" class="comment__image">
               </div>
 
               <div class="comment__text-block">
@@ -123,7 +123,7 @@
 
             <div class="comment">
               <div class="comment__image-container">
-                <img src="https://picsum.photos/100" alt="" class="comment__image">
+                <img src="/images/thispersondoesnotexist.jpeg" alt="" class="comment__image">
               </div>
 
               <div class="comment__text-block">
@@ -143,7 +143,7 @@
 
             <div class="comment">
               <div class="comment__image-container">
-                <img src="https://picsum.photos/100" alt="" class="comment__image">
+                <img src="/images/thispersondoesnotexist.jpeg" alt="" class="comment__image">
               </div>
 
               <div class="comment__text-block">
@@ -163,7 +163,7 @@
 
             <div class="comment">
               <div class="comment__image-container">
-                <img src="https://picsum.photos/100" alt="" class="comment__image">
+                <img src="/images/thispersondoesnotexist.jpeg" alt="" class="comment__image">
               </div>
 
               <div class="comment__text-block">
@@ -183,7 +183,7 @@
 
             <div class="comment">
               <div class="comment__image-container">
-                <img src="https://picsum.photos/100" alt="" class="comment__image">
+                <img src="/images/thispersondoesnotexist.jpeg" alt="" class="comment__image">
               </div>
 
               <div class="comment__text-block">
