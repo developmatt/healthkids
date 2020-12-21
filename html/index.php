@@ -67,7 +67,7 @@
     <div class="advantages__container">
       <div class="advantages__block">
         <div class="advantages__block-image-div">
-          <img src="/images/vegetables-fruits.jpg" class="advantages__block-image" alt="">
+          <img src="/images/vegetables-fruits.png" class="advantages__block-image" alt="">
         </div>
         <h3 class="advantages__block-title">VITAMINAS E</br>MINERAIS</h3>
         <p>Duas gomas de <strong>Supervita Kids</strong> apresenta <strong>10 vitaminas e 4 mineirais</strong> essenciais para a complementação alimentar infantil.</p>
@@ -75,7 +75,7 @@
 
       <div class="advantages__block">
         <div class="advantages__block-image-div">
-          <img src="/images/gum.jpg" class="advantages__block-image" alt="">
+          <img src="/images/gum.png" class="advantages__block-image" alt="">
         </div>
         <h3 class="advantages__block-title">GOMA DE PECTINA</h3>
         <p>A goma <strong>Supervita Kids</strong> é feita com <strong>pectina vegetal</strong> são especialmente formuladas pra oferecer um eficiente apoio nutricional complementando a alimentação das crianças.</p>
@@ -83,7 +83,7 @@
 
       <div class="advantages__block">
         <div class="advantages__block-image-div">
-          <img src="/images/kid.jpg" class="advantages__block-image" alt="">
+          <img src="/images/kid.png" class="advantages__block-image" alt="">
         </div>
         <h3 class="advantages__block-title">IMUNIDADE</h3>
         <p><strong>Supervita Kids</strong> é um produto que juntamente com a alimentação do dia a dia auxilia no aumento da imunidade do seu filho.</p>
