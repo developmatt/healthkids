@@ -8,7 +8,7 @@
     <nav id="menu" class="menu">
         <ul class="menu__list">
             <li class="menu__item"><a href="#advantages" class="menu__item-link">Benefícios</a></li>
-            <li class="menu__item"><a href="#comments" class="menu__item-link">Depoimentos</a></li>
+            <li class="menu__item"><a href="#user_comments" class="menu__item-link">Depoimentos</a></li>
             <li class="menu__item"><a href="#best" class="menu__item-link">Por que é o melhor?</a></li>
             <!--<li class="menu__item"><a href="#" class="menu__item-link btn btn-purple">Ver preços</a></li>-->
         </ul>
@@ -36,7 +36,7 @@
     <div class="menu-mobile__body">
         <div class="menu-mobile__column">
             <a href="#advantages" class="menu-mobile__link">Benefícios</a>
-            <a href="#comments" class="menu-mobile__link">Depoimentos</a>
+            <a href="#user_comments" class="menu-mobile__link">Depoimentos</a>
             <a href="#best" class="menu-mobile__link">Por que é o melhor?</a>
 
             <!--<a href="#" class="menu-mobile__button">Ver Preços</a>-->
