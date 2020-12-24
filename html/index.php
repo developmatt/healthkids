@@ -50,11 +50,11 @@
   <section id="video" class="video">
     <div class="wrapper">
       <div class="video-container">
-        <div class="youtube-video-place embed-responsive embed-responsive-4by3 " data-yt-url="https://www.youtube.com/embed/fNmxNS25Wf4?rel=0&showinfo=0&autoplay=0">
+        <!-- <div class="youtube-video-place embed-responsive embed-responsive-4by3 " data-yt-url="https://www.youtube.com/embed/fNmxNS25Wf4?rel=0&showinfo=0&autoplay=0">
           <img src="/images/video-thumbnail.png" async class="play-youtube-video">
-        </div>
+        </div> -->
 
-        <!-- <iframe width="600" height="338" src="https://www.youtube.com/embed/fNmxNS25Wf4" frameborder="0" allow="picture-in-picture" allowfullscreen></iframe> -->
+        <iframe width="600" height="338" src="https://www.youtube.com/embed/fNmxNS25Wf4" frameborder="0" allow="picture-in-picture" allowfullscreen></iframe>
       </div>
 
       <div class="text-container">
