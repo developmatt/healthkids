@@ -49,7 +49,7 @@
               </li>
 
               <li class="footer-social__li">
-                <a href="#" class="footer-social__a">
+                <a href="mailto:atendimento@nwse.com.br" class="footer-social__a">
                   <span class="footer-social__icon-block">
                     <i class="far fa-envelope"></i>
                   </span>

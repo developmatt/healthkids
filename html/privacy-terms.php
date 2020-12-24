@@ -22,22 +22,22 @@
                 <h3>Apresentação</h3>
                 <p>
                     O presente Acordo estabelece os termos obrigacionais que irão reger a relação jurídica entre o
-                    website <a href="https://nutrihealth.com.br" class="terms__link">https://nutriwealth.com.br</a> e seus Usuários.
+                    website <a href="https://nutrihealth.com.br" class="terms__link">https://supervitakids.com.br</a> e seus Usuários.
                 </p>
 
                 <p>
                     Esta política de privacidade visa informar como a empresa NW COMÉRCIO E DISTRIBUIÇÃO DE SUPLEMENTOS
                     ESPECIAIS LTDA adquire, utiliza e compartilha informações ao acessar o website
-                    <a href="https://nutrihealth.com.br" class="terms__link">https://nutriwealth.com.br</a>.
+                    <a href="https://nutrihealth.com.br" class="terms__link">https://supervitakids.com.br</a>.
                 </p>
 
                 <p>
-                    O website <a href="https://nutrihealth.com.br" class="terms__link">https://nutriwealth.com.br</a> possui uma política de privacidade e segurança que visa
+                    O website <a href="https://nutrihealth.com.br" class="terms__link">https://supervitakids.com.br</a> possui uma política de privacidade e segurança que visa
                     proteger seus Usuários contra o uso indevido de suas informações pessoais por terceiros.
                 </p>
 
                 <p>
-                    O website <a href="https://nutrihealth.com.br" class="terms__link">https://nutriwealth.com.br</a> não venderá ou compartilhará suas informações pessoais com
+                    O website <a href="https://nutrihealth.com.br" class="terms__link">https://supervitakids.com.br</a> não venderá ou compartilhará suas informações pessoais com
                     terceiros. Salvo com expressa autorização do usuário ou mediante autorização judicial.
                 </p>
 
@@ -61,7 +61,7 @@
 
                 <p>
                     Caso o usuário queira registrar em nosso website será solicitado o seu consentimento expresso, o
-                    qual será fornecido por meio do ícone <a href="https://nutrihealth.com.br" class="terms__link">https://nutriwealth.com.br</a> (conforme layout do site).
+                    qual será fornecido por meio do ícone <a href="https://nutrihealth.com.br" class="terms__link">https://supervitakids.com.br</a> (conforme layout do site).
                     Ressaltamos que o usurário possui o direito e a liberdade de retirar tal consentimento a qualquer
                     tempo.
                 </p>
@@ -94,11 +94,11 @@
 
                 <p>
                     <strong>ATENÇÃO:</strong> Se o Usuário optar por rejeitar todos os cookies em seu navegador, não
-                    conseguirá utilizar todos os recursos e serviços oferecidos pelo website <a href="https://nutrihealth.com.br" class="terms__link">https://nutriwealth.com.br</a>.
+                    conseguirá utilizar todos os recursos e serviços oferecidos pelo website <a href="https://nutrihealth.com.br" class="terms__link">https://supervitakids.com.br</a>.
                 </p>
 
                 <p>
-                    O website <a href="https://nutrihealth.com.br" class="terms__link">https://nutriwealth.com.br</a> utiliza seus próprios cookies para vários propósitos,
+                    O website <a href="https://nutrihealth.com.br" class="terms__link">https://supervitakids.com.br</a> utiliza seus próprios cookies para vários propósitos,
                     incluindo:
                 </p>
 
@@ -108,8 +108,8 @@
                     <li>Apresentar anúncios voltados ao perfil do usuário;</li>
                     <li>Estimar o tráfego de internautas;</li>
                     <li> Conduzir pesquisas para melhorar o conteúdo e os serviços do website
-                        <a href="https://nutrihealth.com.br" class="terms__link">https://nutriwealth.com.br</a>;</li>
-                    <li> O website <a href="https://nutrihealth.com.br" class="terms__link">https://nutriwealth.com.br</a> permite a outras empresas que estejam prestando serviços
+                        <a href="https://nutrihealth.com.br" class="terms__link">https://supervitakids.com.br</a>;</li>
+                    <li> O website <a href="https://nutrihealth.com.br" class="terms__link">https://supervitakids.com.br</a> permite a outras empresas que estejam prestando serviços
                         publicitários, ou veiculando publicidade de nossos serviços a colocar e ter acesso a cookies no
                         computador. A utilização de cookies por parte destas empresas é de exclusiva responsabilidade
                         delas.
@@ -123,11 +123,11 @@
                 </p>
 
                 <p>
-                Os anunciantes e outras empresas não têm acesso aos cookies do website <a href="https://nutrihealth.com.br" class="terms__link">https://nutriwealth.com.br</a>
+                Os anunciantes e outras empresas não têm acesso aos cookies do website <a href="https://nutrihealth.com.br" class="terms__link">https://supervitakids.com.br</a>
                 </p>   
 
                 <p>
-                O Usuário, autoriza, expressamente, que o website <a href="https://nutrihealth.com.br" class="terms__link">https://nutriwealth.com.br</a> utilize recursos, a fim de
+                O Usuário, autoriza, expressamente, que o website <a href="https://nutrihealth.com.br" class="terms__link">https://supervitakids.com.br</a> utilize recursos, a fim de
                 oferecer um serviço melhor e mais personalizado
                 </p>
 
