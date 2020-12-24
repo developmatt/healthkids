@@ -97,7 +97,7 @@
     <a href="#release" class="advantages__button btn btn-large btn-yellow">QUERO MEU FILHO SAUDÁVEL</a>
   </section>
 
-  <section id="comments" class="comments">
+  <section id="user_comments" class="comments">
     <div class="comments__content wrapper">
       <h2 class="comments__title">O QUE DIZEM DO SUPERVITA KIDS?</h2>
 
@@ -264,6 +264,7 @@
     $currentRelease = [];
     $arrayRelease = [
       [
+        'url' => 'http://mon.net.br/zfz46',
         'image_url' => '/images/kit-1.png',
         'price' => '24',
         'price_cents' => '12',
@@ -274,6 +275,7 @@
         'total' => 'Total: 144,70'
       ],
       [
+        'url' => 'http://mon.net.br/11clrc',
         'image_url' => '/images/kit-3.png',
         'price' => '63',
         'price_cents' => '66',
@@ -281,9 +283,10 @@
         'off' => false,
         'free_freight' => true,
         'ammount' => 3,
-        'total' => 'De: <span class="striked">434,10</span class="striked"> Por: 378,10'
+        'total' => 'De: <span class="striked">434,10</span class="striked"> Por: 348,00'
       ],
       [
+        'url' => 'http://mon.net.br/13oii0',
         'image_url' => '/images/kit-5.png',
         'price' => '101',
         'price_cents' => '92',
@@ -342,7 +345,7 @@
 
           <span class="column__total"><?= $currentRelease['total'] ?></span>
 
-          <a href="#" class="btn btn-pink column__button">COMPRAR AGORA</a>
+          <a href="<?= $currentRelease['url'] ?>" class="btn btn-pink column__button">COMPRAR AGORA</a>
         </div>
       </div>
 
