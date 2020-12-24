@@ -12,7 +12,7 @@
       <h3 class="main__subtitle">Suplemento alimentar em <span class="main__subtitle--bold">Goma de Pectina.</span>
       </h3>
 
-      <a href="#" class="main__button btn btn-large btn-yellow">QUERO MEU FILHO SAUDÁVEL</a>
+      <a href="#release" class="main__button btn btn-large btn-yellow">QUERO MEU FILHO SAUDÁVEL</a>
 
       <img src="./images/selo.webp" alt="Selo compra segura" class="main__safe-buy">
 
@@ -94,10 +94,10 @@
       </div>
     </div>
 
-    <a href="#" class="advantages__button btn btn-large btn-yellow">QUERO MEU FILHO SAUDÁVEL</a>
+    <a href="#release" class="advantages__button btn btn-large btn-yellow">QUERO MEU FILHO SAUDÁVEL</a>
   </section>
 
-  <section class="comments">
+  <section id="comments" class="comments">
     <div class="comments__content wrapper">
       <h2 class="comments__title">O QUE DIZEM DO SUPERVITA KIDS?</h2>
 
@@ -212,7 +212,7 @@
           class="fas fa-chevron-right"></i></span>
 
 
-      <a href="#" class="comments__button btn btn-large btn-yellow">QUERO MEU FILHO SAUDÁVEL</a>
+      <a href="#release" class="comments__button btn btn-large btn-yellow">QUERO MEU FILHO SAUDÁVEL</a>
 
 
     </div>
