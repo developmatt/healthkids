@@ -201,7 +201,7 @@
                 class="fas fa-chevron-right"></i></span>
 
 
-            <a href="#" class="comments__button btn btn-large btn-yellow">QUERO COMPRAR</a>
+            <a href="#release" class="comments__button btn btn-large btn-yellow">QUERO COMPRAR</a>
 
 
             </div>
@@ -331,7 +331,7 @@
 
                 </div>
 
-                <a href="#" class="btn btn-pink column__button">COMPRAR AGORA</a>
+                <a href="#release" class="btn btn-pink column__button">COMPRAR AGORA</a>
                 </div>
             </div>
 
