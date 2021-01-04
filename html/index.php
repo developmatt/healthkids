@@ -264,7 +264,7 @@
     $currentRelease = [];
     $arrayRelease = [
       [
-        'url' => 'http://mon.net.br/zfz46',
+        'url' => 'http://mon.net.br/144hmc',
         'image_url' => '/images/kit-1.png',
         'price' => '24',
         'price_cents' => '12',
@@ -275,10 +275,10 @@
         'total' => 'Total: 144,70'
       ],
       [
-        'url' => 'http://mon.net.br/11clrc',
+        'url' => 'http://mon.net.br/144i3g',
         'image_url' => '/images/kit-3.png',
-        'price' => '63',
-        'price_cents' => '66',
+        'price' => '58',
+        'price_cents' => '00',
         'selling_champion' => true,
         'off' => false,
         'free_freight' => true,
@@ -286,7 +286,7 @@
         'total' => 'De: <span class="striked">434,10</span class="striked"> Por: 348,00'
       ],
       [
-        'url' => 'http://mon.net.br/13oii0',
+        'url' => 'http://mon.net.br/144icq',
         'image_url' => '/images/kit-5.png',
         'price' => '101',
         'price_cents' => '92',
