@@ -9,7 +9,7 @@
     <div class="main__container wrapper">
       <h2 class="main__title">PODEROSÍSSIMO PARA UM<br><span class="main__title--bold">SUPER POLIVITAMÍNICO INFANTIL!</span> </h2>
 
-      <h3 class="main__subtitle">Suplemento alimentar em <span class="main__subtitle--bold">Goma de Pectina.</span>
+      <h3 class="main__subtitle">60 saborosas <span class="main__subtitle--bold">Gomas de Pectina.</span>
       </h3>
 
       <a href="#release" class="main__button btn btn-large btn-yellow">QUERO MEU FILHO SAUDÁVEL</a>
@@ -53,8 +53,7 @@
         <!-- <div class="youtube-video-place embed-responsive embed-responsive-4by3 " data-yt-url="https://www.youtube.com/embed/fNmxNS25Wf4?rel=0&showinfo=0&autoplay=0">
           <img src="/images/video-thumbnail.png" async class="play-youtube-video">
         </div> -->
-
-        <iframe width="600" height="338" src="https://www.youtube.com/embed/fNmxNS25Wf4" frameborder="0" allow="picture-in-picture" allowfullscreen></iframe>
+        <iframe src="https://player.vimeo.com/video/498054388" width="600" height="338" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
       </div>
 
       <div class="text-container">
@@ -98,11 +97,47 @@
   </section>
 
   <section id="user_comments" class="comments">
+    <!-- VIDEO -->
     <div class="comments__content wrapper">
       <h2 class="comments__title">O QUE DIZEM DO SUPERVITA KIDS?</h2>
 
+
       <div class="comments__slider-container">
-        <div class="carousel">
+        <div class="carousel" id="carousel-video">
+          <div class="comments__comment-div">
+
+            <div class="comment">
+              <div class="comment__text-block video-responsive">
+                <iframe src="https://player.vimeo.com/video/498063971" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="comments__comment-div">
+
+            <div class="comment">
+              <div class="comment__text-block video-responsive">
+                <iframe src="https://player.vimeo.com/video/498064644" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+        <span class="comments__previous comments__controller comments__controller--left" id="comments__previous__video"><i
+          class="fas fa-chevron-left"></i></span>
+        <span class="comments__next comments__controller comments__controller--right" id="comments__next__video"><i
+          class="fas fa-chevron-right"></i></span>
+
+      </div>
+    </div>
+    <br />
+    <!-- TEXTO -->
+    <div class="comments__content wrapper">
+
+      <div class="comments__slider-container">
+        <div class="carousel" id="carousel-text">
           <div class="comments__comment-div">
 
             <div class="comment">
@@ -206,9 +241,9 @@
         </div>
       </div>
 
-      <span class="comments__previous comments__controller comments__controller--left"><i
+      <span class="comments__previous comments__controller comments__controller--left" id="comments__previous__text"><i
           class="fas fa-chevron-left"></i></span>
-      <span class="comments__next comments__controller comments__controller--right"><i
+      <span class="comments__next comments__controller comments__controller--right" id="comments__next__text"><i
           class="fas fa-chevron-right"></i></span>
 
 
@@ -303,15 +338,14 @@
   <section id="release" class="release">
     <h2 class="release__title">APROVEITE ESSE <span class="bold">LANÇAMENTO</span></h2>
     
-    <h3 class="release__subtitle">Polivitamínico infantil delicioso para crianças.
-      Suplemento alimentar em <span class="bold">goma de pectina</span>.</h3>
+    <h3 class="release__subtitle">Polivitamínico infantil delicioso para crianças em formato de <span class="bold">goma de pectina</span>.</h3>
     
     <div class="wrapper column__container">
       
       <?php foreach($arrayRelease as $currentRelease) :  ?>
       
       <div class="column">
-        <span class="column__title">COMPRE <?= $currentRelease['ammount'] ?></span>
+        <span class="column__title">Compre <?= $currentRelease['ammount'] == 1 ? $currentRelease['ammount']. ' mês': $currentRelease['ammount']. ' meses'?> de SuperVita Kids</span>
         <div class="column__card">
           <?php if($currentRelease['selling_champion']) : ?>
             <span class="column__subtitle">CAMPEÃO DE VENDAS</span>
@@ -412,6 +446,60 @@
     </div>
   </section>
 
+  <section class="doubts wrapper">
+        <h2 class="page-title doubts__title">DÚVIDAS FREQUENTES SOBRE SUPERVITA KIDS</h2>
+
+        <h3 class="doubts__description">Tire todas suas dúvidas sobre o Supervita Kids:</h3>
+
+        <div class="doubts__container">
+            <?php
+                $doubts = [
+                    [
+                        'title' => 'O que é Supervita Kids?',
+                        'description' => 'Supervita Kids é um <strong>polivitamínico feito de pectina (natural)</strong>, possui <strong>10 vitaminas e 4 minerais</strong> que ajudam na complementação da alimentação infantil.'
+                    ],
+
+                    [
+                        'title' => 'Do que é feito o Supervita Kids?',
+                        'description' => 'Supervita Kids é feito de <strong>pectina uma substância natural</strong>, saudável e baseada em plantas, ou seja não contém gelatina animal em sua composição. Estando comprometidos em produzir gomas usando ingredientes da mais alta qualidade nosso produto contém <strong>vitaminas (A, D3, C, E, K, B6, B9, B12, B5, Biotina, Iodo, Selênio, Zinco, Sódio.)</strong>'
+                    ],
+
+                    [
+                        'title' => 'Quantas gomas ingerir?',
+                        'description' => 'Ingerir <strong>duas gomas por dia</strong> proporciona uma complementação das vitaminas e minerais que são importantes para um desenvolvimento saudável para nossas crianças.'
+                    ],
+
+                    [
+                        'title' => 'Quem pode consumir o Supervita Kids?',
+                        'description' => 'Recomendado para <strong>crianças de 2 anos a 10 anos</strong>, adultos podem consumir mais o produto foi desenvolvido para atender as necessidades das crianças na faixa etária mencionada.'
+                    ],
+
+                    [
+                        'title' => 'Supervita Kids engorda?',
+                        'description' => 'Supervita Kids é um polivitamínico infantil formulado para ajudar a complementar as vitaminas e minerais de nossas crianças, apesar de conter açúcar <strong>ele não engorda</strong>, pois possui <strong>28 calorias</strong> em sua dose diária de 2 gomas.'
+                    ],
+
+                    [
+                        'title' => 'Como posso armazenar o produto?',
+                        'description' => 'Armazene as vitaminas Supervita Kids em áreas <strong>mais frias ou em temperatura ambiente</strong>. Mantenha afastado de locais que tenha incidência constante de sol.'
+                    ],
+
+                    [
+                        'title' => 'Supervita kids causa alergia?',
+                        'description' => 'Por questões de regulação técnica da Anvisa e segurança do fabricante, foi inserido no rótulo do <strong>Supervita Kids</strong> (saiba mais), assim como vários outros produtos no mercado, que pode conter: leite, soja e peixe, devido a outros produtos que também são criados na fábrica. Porém não contém nenhum desses ingredientes em nossa fórmula, ele é feito <strong>a base de pectina vegetal</strong>.'
+                    ],
+
+                    [
+                        'title' => 'Quantas gomas vem em cada embalagem?',
+                        'description' => 'Cada embalagem possui 60 gomas, suprindo para 30 dias, conforme sugestão de consumo.</strong>.'
+                    ],
+                ];
+
+                foreach($doubts as $doubt) {
+                    require('./components/doubt_label.php');
+                } ?>
+        </div>
+    </section>
   <?php require('./components/offer.php'); ?>
   
   </div>
