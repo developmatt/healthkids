@@ -19,7 +19,7 @@
         height: 338px;
 
         &--mobile {
-            //display: none;
+            display: none;
         }
     }
 
@@ -47,6 +47,6 @@
     }
 
     @media screen and (max-width: 750px) {
-        //display: none;
+        display: none;
     }
 }
