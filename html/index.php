@@ -50,9 +50,6 @@
   <section id="video" class="video">
     <div class="wrapper">
       <div class="video-container">
-        <!-- <div class="youtube-video-place embed-responsive embed-responsive-4by3 " data-yt-url="https://www.youtube.com/embed/fNmxNS25Wf4?rel=0&showinfo=0&autoplay=0">
-          <img src="/images/video-thumbnail.png" async class="play-youtube-video">
-        </div> -->
         <iframe src="https://player.vimeo.com/video/498054388" width="600" height="338" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
       </div>
 
@@ -65,7 +62,7 @@
 
 
   <section id="advantages" class="advantages wrapper">
-    <h2 class="advantages__title">QUAIS SÃO AS VANTAGES DO SUPER VITA KIDS?</h2>
+    <h2 class="advantages__title">QUAIS SÃO AS VANTAGES DO SUPERVITA KIDS?</h2>
 
     <div class="advantages__container">
       <div class="advantages__block">
