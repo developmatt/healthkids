@@ -14,7 +14,7 @@
                 Já Já o SuperVita Kids Chega na sua casa!
             </h2>
 
-            <h3 class="terms__description">Dentro de alguns minutos, você receberá informações do seu pedido em seu email(Verifique a CAIXA DE ENTRADA, também Span e Lixo Eletrônico)</h3>
+            <h3 class="terms__description">Dentro de alguns minutos, você receberá informações do seu pedido em seu email(Verifique a CAIXA DE ENTRADA, também Spam e Lixo Eletrônico)</h3>
             <br />
 
             <ul>
