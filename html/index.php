@@ -50,7 +50,7 @@
   <section id="video" class="video">
     <div class="wrapper">
       <div class="video-container">
-        <iframe src="https://player.vimeo.com/video/498054388" width="600" height="338" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+        <iframe src="https://player.vimeo.com/video/498054388?title=false&byline=false" width="600" height="338" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
       </div>
 
       <div class="text-container">
@@ -105,7 +105,7 @@
 
             <div class="comment">
               <div class="comment__text-block video-responsive">
-                <iframe src="https://player.vimeo.com/video/498063971" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+                <iframe src="https://player.vimeo.com/video/498063971?title=false&byline=false" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
               </div>
             </div>
 
@@ -115,7 +115,7 @@
 
             <div class="comment">
               <div class="comment__text-block video-responsive">
-                <iframe src="https://player.vimeo.com/video/498064644" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+                <iframe src="https://player.vimeo.com/video/498064644?title=false&byline=false" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
               </div>
             </div>
 
@@ -139,17 +139,14 @@
 
             <div class="comment">
               <div class="comment__image-container">
-                <img src="/images/thispersondoesnotexist.jpeg" alt="" class="comment__image">
+                <img src="/images/foto_doubt_1.png" alt="" class="comment__image">
               </div>
 
               <div class="comment__text-block">
-                <p class="comment__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, quam
-                  facilis.
-                  At enim nostrum asperiores officia illum, quam distinctio repellat, hic aliquam quis, tempora neque
-                  sequi necessitatibus non omnis esse!</p>
+                <p class="comment__text">Incrível! Melhor forma de consumir vitaminas, meu filho adorou e sempre me lembra de dar as gominhas .</p>
 
-                <span class="comment__name">Maiara</span>
-                <spann class="comment__nick">email@gmail.com</spann>
+                <span class="comment__name">Renata</span>
+                <spann class="comment__nick">Belo Horizonte - MG</spann>
               </div>
             </div>
 
@@ -159,17 +156,14 @@
 
             <div class="comment">
               <div class="comment__image-container">
-                <img src="/images/thispersondoesnotexist.jpeg" alt="" class="comment__image">
+                <img src="/images/foto_doubt_2.png" alt="" class="comment__image">
               </div>
 
               <div class="comment__text-block">
-                <p class="comment__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, quam
-                  facilis.
-                  At enim nostrum asperiores officia illum, quam distinctio repellat, hic aliquam quis, tempora neque
-                  sequi necessitatibus non omnis esse!</p>
+                <p class="comment__text">Suplemento em capsula sempre foi uma dificuldade para a minha filha consumir, mais com esse suplemento em gomas resolveu meu problema e me sinto realizada em complementar sua vitaminas.</p>
 
-                <span class="comment__name">Maiara</span>
-                <spann class="comment__nick">email@gmail.com</spann>
+                <span class="comment__name">Claudia</span>
+                <spann class="comment__nick">Caxias do Sul - RS</spann>
               </div>
             </div>
 
@@ -179,17 +173,14 @@
 
             <div class="comment">
               <div class="comment__image-container">
-                <img src="/images/thispersondoesnotexist.jpeg" alt="" class="comment__image">
+                <img src="/images/foto_doubt_3.png" alt="" class="comment__image">
               </div>
 
               <div class="comment__text-block">
-                <p class="comment__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, quam
-                  facilis.
-                  At enim nostrum asperiores officia illum, quam distinctio repellat, hic aliquam quis, tempora neque
-                  sequi necessitatibus non omnis esse!</p>
+                <p class="comment__text">Minha filha é daquelas que só come carne, batata frita e arroz, sempre me preocupei em relação a vitaminas . Estou muito satisfeita em saber que as vitaminas em gomas vão ajudar a contribuir com a saúde do minha filha.</p>
 
-                <span class="comment__name">Maiara</span>
-                <spann class="comment__nick">email@gmail.com</spann>
+                <span class="comment__name">Fernanda</span>
+                <spann class="comment__nick">Rio de Janeiro - RJ</spann>
               </div>
             </div>
 
@@ -199,17 +190,14 @@
 
             <div class="comment">
               <div class="comment__image-container">
-                <img src="/images/thispersondoesnotexist.jpeg" alt="" class="comment__image">
+                <img src="/images/foto_doubt_4.png" alt="" class="comment__image">
               </div>
 
               <div class="comment__text-block">
-                <p class="comment__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, quam
-                  facilis.
-                  At enim nostrum asperiores officia illum, quam distinctio repellat, hic aliquam quis, tempora neque
-                  sequi necessitatibus non omnis esse!</p>
+                <p class="comment__text">Eu e meu marido trabalhamos, e por mais que tente acompanhar a alimentação dos meus filhos sei que ela é deficiente. Pesquisei na internet e encontrei essas gomas com vitaminas, meus filhos estão adorando!</p>
 
-                <span class="comment__name">Maiara</span>
-                <spann class="comment__nick">email@gmail.com</spann>
+                <span class="comment__name">Márcia</span>
+                <spann class="comment__nick">Curvelo - MG</spann>
               </div>
             </div>
 
@@ -219,17 +207,14 @@
 
             <div class="comment">
               <div class="comment__image-container">
-                <img src="/images/thispersondoesnotexist.jpeg" alt="" class="comment__image">
+                <img src="/images/foto_doubt_5.png" alt="" class="comment__image">
               </div>
 
               <div class="comment__text-block">
-                <p class="comment__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, quam
-                  facilis.
-                  At enim nostrum asperiores officia illum, quam distinctio repellat, hic aliquam quis, tempora neque
-                  sequi necessitatibus non omnis esse!</p>
+                <p class="comment__text">Amei o produto e o carinho no atendimento da empresa, pois é primordial além de ter um bom produto termos um bom atendimento, parabéns a empresa!</p>
 
-                <span class="comment__name">Maiara</span>
-                <spann class="comment__nick">email@gmail.com</spann>
+                <span class="comment__name">Poliana</span>
+                <spann class="comment__nick">Maceió - AL</spann>
               </div>
             </div>
 
