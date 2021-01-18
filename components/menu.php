@@ -10,6 +10,7 @@
             <li class="menu__item"><a href="#advantages" class="menu__item-link">Benefícios</a></li>
             <li class="menu__item"><a href="#user_comments" class="menu__item-link">Depoimentos</a></li>
             <li class="menu__item"><a href="#best" class="menu__item-link">Por que é o melhor?</a></li>
+            <li class="menu__item"></li>
             <!--<li class="menu__item"><a href="#" class="menu__item-link btn btn-purple">Ver preços</a></li>-->
         </ul>
     </nav>

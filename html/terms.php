@@ -10,9 +10,11 @@
 
         <section class="terms-content wrapper">
             <span class="terms__tabs">
-                <span class="terms__tabs-item">Termos</span>
+                <span class="terms__tabs-item"><a href="/terms"><strong>Termos</a></span>
                 <span class="terms__tabs-divider"></span>
-                <span class="terms__tabs-item">Condições</span>
+                <span class="terms__tabs-item"><a href="/exchange">Políticas de troca e devolução</a></span>
+                <span class="terms__tabs-divider"></span>
+                <span class="terms__tabs-item"><a href="/privacy">Políticas de Privacidade</a></span>
             </span>
             <h2 class="page-title">TERMOS</h2>
 
@@ -20,7 +22,7 @@
 
             <div class="terms__term">
                 <p>
-                     O Termo e Condições de Compra e venda de NW COMÉRCIO E DISTRIBUIÇÃO DE SUPLEMENTOS ESPECIAIS LTDA, empresa, inscrita no CNPJ nº 37.877.053/0001-03, estabelecida na avenida Portugal, nº 2094, sala 309, bairro Santa Amélia, Belo Horizonte/MG, CEP 31.555-000 é o contrato que tem como propósito determinar as condições gerais de uso e compra de produtos e serviços do cliente do Website https://supervitakids.com.br. 
+                     O Termo e Condições de Compra e venda de NW COMÉRCIO E DISTRIBUIÇÃO DE SUPLEMENTOS ESPECIAIS LTDA, empresa, inscrita no CNPJ nº 37.877.053/0001-03, estabelecida na avenida Portugal, nº 2094, sala 309, bairro Santa Amélia, Belo Horizonte/MG, CEP 31.555-000 é o contrato que tem como propósito determinar as condições gerais de uso e compra de produtos e serviços do cliente do Website https://nutriwealth.com.br. 
                 </p>
 
                 <p>
@@ -38,7 +40,7 @@
 
                 <h3>CONFIDENCIABILIDADE</h3>
                 <p>
-                    A NW garante o resguardo das informações fornecidas pelo usuário no processo de compra. A segurança do site é auditada diariamente e garantida contra a ação de hackers, através do selo "Site Blindado". Para maiores informações sobre como seus dados são recolhidos, acesse a nossa Política de Privacidade e Segurança disponível em https://supervitakids.com.br.
+                    A NW garante o resguardo das informações fornecidas pelo usuário no processo de compra. A segurança do site é auditada diariamente e garantida contra a ação de hackers, através do selo "Site Blindado". Para maiores informações sobre como seus dados são recolhidos, acesse a nossa Política de Privacidade e Segurança disponível em https://nutriwealth.com.br.
                 </p>
 
                 <h3>SERVIÇO DE ATENDIMENTO AO CLIENTE</h3>
@@ -69,7 +71,7 @@
 
                 <h3>DIREITO DE ARREPENDIMENTO</h3>
                 <p>
-                    Ao cliente é facultado o direito de arrependimento. Acesse: www.https://supervitakids.com.br e leia atentamente nossa política de Troca e Devolução.
+                    Ao cliente é facultado o direito de arrependimento. Acesse: www.nutriwealth.com.br e leia atentamente nossa política de Troca e Devolução.
                 </p>
 
                 <h3>DISPOSIÇÕES LEGAIS</h3>
@@ -80,7 +82,7 @@
 
                 <h3>PROPRIEDADE INTELECTUAL</h3>
                 <p>
-                    O Site pertence e é operado por NW Comércio e Distribuição de Suplementos Ltda (NW). O layout e cada componente, incluindo marcas, logos e nomes de domínio, que aparecem no Site www.https://supervitakids.com.br, são protegidos pela legislação vigente sobre propriedade intelectual mediante autorização. Nenhum componente do Site pode ser copiado, reproduzido, alterado, editado, ‘baixado’, descaracterizado, transmitido ou distribuído sob qualquer forma, por qualquer meio, no todo ou em parte, sem o consentimento prévio por escrito da Empresa, exceto para uso exclusivo de solicitações da imprensa condicionadas em conformidade com os direitos de propriedade intelectual e quaisquer outros direitos de propriedade.
+                    O Site pertence e é operado por NW Comércio e Distribuição de Suplementos Ltda (NW). O layout e cada componente, incluindo marcas, logos e nomes de domínio, que aparecem no Site www.nutriwealth.com.br, são protegidos pela legislação vigente sobre propriedade intelectual mediante autorização. Nenhum componente do Site pode ser copiado, reproduzido, alterado, editado, ‘baixado’, descaracterizado, transmitido ou distribuído sob qualquer forma, por qualquer meio, no todo ou em parte, sem o consentimento prévio por escrito da Empresa, exceto para uso exclusivo de solicitações da imprensa condicionadas em conformidade com os direitos de propriedade intelectual e quaisquer outros direitos de propriedade.
                 </p>
 
 
