@@ -8,7 +8,7 @@
       </div>
 
       <div class="offer-text-div">
-        <h3 class="offer__description">Aproveita agora e receba o SUPERVITA KIDS Sabor Morango no conforto de sua casa, um suplemento completo para sua criança.</h3>
+        <h3 class="offer__description">Aproveita agora e receba o SUPERVITA KIDS sabor morango no conforto de sua casa, um suplemento completo para sua criança.</h3>
 
         <a href="/#release" class="btn btn-large btn-blue">QUERO MEU FILHO SAUDÁVEL</a>
       </div>
