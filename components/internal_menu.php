@@ -11,6 +11,7 @@
                 <li class="menu__item"><a href="/#advantages" class="menu__item-link">Benefícios</a></li>
                 <li class="menu__item"><a href="/#user_comments" class="menu__item-link">Depoimentos</a></li>
                 <li class="menu__item"><a href="/#best" class="menu__item-link">Por que é o melhor?</a></li>
+                <li class="menu__item"></li>
             </ul>
         </nav>
     </div>
@@ -39,6 +40,7 @@
             <a href="/#advantages" class="menu-mobile__link">Benefícios</a>
             <a href="/#user_comments" class="menu-mobile__link">Depoimentos</a>
             <a href="/#best" class="menu-mobile__link">Por que é o melhor?</a>
+            
             <div class="menu-mobile__social">
                 <span class="menu-mobile__social-title">REDES SOCIAIS</span>
 

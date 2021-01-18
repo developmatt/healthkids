@@ -122,10 +122,8 @@
           </div>
 
         </div>
-        <span class="comments__previous comments__controller comments__controller--left" id="comments__previous__video"><i
-          class="fas fa-chevron-left"></i></span>
-        <span class="comments__next comments__controller comments__controller--right" id="comments__next__video"><i
-          class="fas fa-chevron-right"></i></span>
+        <span class="comments__previous comments__controller comments__controller--left" id="comments__previous__video"><i class="fas fa-chevron-left"></i></span>
+        <span class="comments__next comments__controller comments__controller--right" id="comments__next__video"><i class="fas fa-chevron-right"></i></span>
 
       </div>
     </div>
@@ -223,10 +221,8 @@
         </div>
       </div>
 
-      <span class="comments__previous comments__controller comments__controller--left" id="comments__previous__text"><i
-          class="fas fa-chevron-left"></i></span>
-      <span class="comments__next comments__controller comments__controller--right" id="comments__next__text"><i
-          class="fas fa-chevron-right"></i></span>
+      <span class="comments__previous comments__controller comments__controller--left" id="comments__previous__text"><i class="fas fa-chevron-left"></i></span>
+      <span class="comments__next comments__controller comments__controller--right" id="comments__next__text"><i class="fas fa-chevron-right"></i></span>
 
 
       <a href="#release" class="comments__button btn btn-large btn-yellow">QUERO MEU FILHO SAUDÁVEL</a>
@@ -262,7 +258,7 @@
 
         <div class="best__text-container">
           <h3 class="best__text-title">Crescimento Saudável</h3>
-          <p class="best__text">As gomas proporcionam a ingestão e absorção de vitaminas e minerais imdispensáveis para o crescimento e desenvolvimento infantil.</p>
+          <p class="best__text">As gomas proporcionam a ingestão e absorção de vitaminas e minerais indispensáveis para o crescimento e desenvolvimento infantil.</p>
         </div>
       </div>
 
