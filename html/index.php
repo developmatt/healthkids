@@ -70,7 +70,7 @@
           <img src="/images/vegetables-fruits.png" class="advantages__block-image" alt="">
         </div>
         <h3 class="advantages__block-title">VITAMINAS E</br>MINERAIS</h3>
-        <p>Duas gomas de <strong>Supervita Kids</strong> apresenta <strong>10 vitaminas e 4 mineirais</strong> essenciais para a complementação alimentar infantil.</p>
+        <p>Duas gomas de <strong>Supervita Kids</strong> contém <strong>10 vitaminas e 4 minerais</strong> essenciais para a complementação alimentar infantil.</p>
       </div>
 
       <div class="advantages__block">
@@ -78,7 +78,7 @@
           <img src="/images/gum.png" class="advantages__block-image" alt="">
         </div>
         <h3 class="advantages__block-title">GOMA DE PECTINA</h3>
-        <p>A goma <strong>Supervita Kids</strong> é feita com <strong>pectina vegetal</strong> são especialmente formuladas pra oferecer um eficiente apoio nutricional complementando a alimentação das crianças.</p>
+        <p>A goma <strong>Supervita Kids</strong> é feita com <strong>pectina vegetal</strong> que são especialmente formuladas pra oferecer um eficiente apoio nutricional complementando a alimentação das crianças.</p>
       </div>
 
       <div class="advantages__block">
@@ -129,95 +129,64 @@
     </div>
     <br />
     <!-- TEXTO -->
+    <?php
+    $currentComment = [];
+    $arrayComment = [
+      [
+        'avatar' => '/images/foto_doubt_1.png',
+        'comment' => 'Incrível! Melhor forma de consumir vitaminas, meu filho adorou e sempre me lembra de dar as gominhas.',
+        'name' => 'Renata',
+        'city' => 'Belo Horizonte - MG',
+      ],
+      [
+        'avatar' => '/images/foto_doubt_2.png',
+        'comment' => 'Suplemento em capsula sempre foi uma dificuldade para a minha filha consumir, mais com esse suplemento em gomas resolveu meu problema e me sinto realizada em complementar sua vitaminas.',
+        'name' => 'Claudia',
+        'city' => 'Caxias do Sul - RS',
+      ],
+      [
+        'avatar' => '/images/foto_doubt_3.png',
+        'comment' => 'Minha filha é daquelas que só come carne, batata frita e arroz, sempre me preocupei em relação a vitaminas . Estou muito satisfeita em saber que as vitaminas em gomas vão ajudar a contribuir com a saúde do minha filha.',
+        'name' => 'Fernanda',
+        'city' => 'Rio de Janeiro - RJ',
+      ],
+      [
+        'avatar' => '/images/foto_doubt_4.png',
+        'comment' => 'Eu e meu marido trabalhamos, e por mais que tente acompanhar a alimentação dos meus filhos sei que ela é deficiente. Pesquisei na internet e encontrei essas gomas com vitaminas, meus filhos estão adorando!',
+        'name' => 'Marcia',
+        'city' => 'Curvelo - MG',
+      ],
+      [
+        'avatar' => '/images/foto_doubt_5.png',
+        'comment' => 'Amei o produto e o carinho no atendimento da empresa, pois é primordial além de ter um bom produto eles tem um bom atendimento, parabéns a empresa!',
+        'name' => 'Poliana',
+        'city' => 'Maceió - AL',
+      ],
+    ];
+  ?>
+
     <div class="comments__content wrapper">
 
       <div class="comments__slider-container">
         <div class="carousel" id="carousel-text">
-          <div class="comments__comment-div">
+          <?php foreach($arrayComment as $currentComment) :  ?>
+            <div class="comments__comment-div">
 
-            <div class="comment">
-              <div class="comment__image-container">
-                <img src="/images/foto_doubt_1.png" alt="" class="comment__image">
+              <div class="comment">
+                <div class="comment__image-container">
+                  <img src="<?= $currentComment['avatar'] ?>" alt="" class="comment__image">
+                </div>
+
+                <div class="comment__text-block">
+                  <p class="comment__text"><?= $currentComment['comment'] ?></p>
+
+                  <span class="comment__name"><?= $currentComment['name'] ?></span>
+                  <spann class="comment__nick"><?= $currentComment['city'] ?></spann>
+                </div>
               </div>
 
-              <div class="comment__text-block">
-                <p class="comment__text">Incrível! Melhor forma de consumir vitaminas, meu filho adorou e sempre me lembra de dar as gominhas .</p>
-
-                <span class="comment__name">Renata</span>
-                <spann class="comment__nick">Belo Horizonte - MG</spann>
-              </div>
             </div>
-
-          </div>
-
-          <div class="comments__comment-div">
-
-            <div class="comment">
-              <div class="comment__image-container">
-                <img src="/images/foto_doubt_2.png" alt="" class="comment__image">
-              </div>
-
-              <div class="comment__text-block">
-                <p class="comment__text">Suplemento em capsula sempre foi uma dificuldade para a minha filha consumir, mais com esse suplemento em gomas resolveu meu problema e me sinto realizada em complementar sua vitaminas.</p>
-
-                <span class="comment__name">Claudia</span>
-                <spann class="comment__nick">Caxias do Sul - RS</spann>
-              </div>
-            </div>
-
-          </div>
-
-          <div class="comments__comment-div">
-
-            <div class="comment">
-              <div class="comment__image-container">
-                <img src="/images/foto_doubt_3.png" alt="" class="comment__image">
-              </div>
-
-              <div class="comment__text-block">
-                <p class="comment__text">Minha filha é daquelas que só come carne, batata frita e arroz, sempre me preocupei em relação a vitaminas . Estou muito satisfeita em saber que as vitaminas em gomas vão ajudar a contribuir com a saúde do minha filha.</p>
-
-                <span class="comment__name">Fernanda</span>
-                <spann class="comment__nick">Rio de Janeiro - RJ</spann>
-              </div>
-            </div>
-
-          </div>
-
-          <div class="comments__comment-div">
-
-            <div class="comment">
-              <div class="comment__image-container">
-                <img src="/images/foto_doubt_4.png" alt="" class="comment__image">
-              </div>
-
-              <div class="comment__text-block">
-                <p class="comment__text">Eu e meu marido trabalhamos, e por mais que tente acompanhar a alimentação dos meus filhos sei que ela é deficiente. Pesquisei na internet e encontrei essas gomas com vitaminas, meus filhos estão adorando!</p>
-
-                <span class="comment__name">Márcia</span>
-                <spann class="comment__nick">Curvelo - MG</spann>
-              </div>
-            </div>
-
-          </div>
-
-          <div class="comments__comment-div">
-
-            <div class="comment">
-              <div class="comment__image-container">
-                <img src="/images/foto_doubt_5.png" alt="" class="comment__image">
-              </div>
-
-              <div class="comment__text-block">
-                <p class="comment__text">Amei o produto e o carinho no atendimento da empresa, pois é primordial além de ter um bom produto termos um bom atendimento, parabéns a empresa!</p>
-
-                <span class="comment__name">Poliana</span>
-                <spann class="comment__nick">Maceió - AL</spann>
-              </div>
-            </div>
-
-          </div>
-
+          <?php endforeach; ?>
         </div>
       </div>
 
@@ -434,17 +403,17 @@
                 $doubts = [
                     [
                         'title' => 'O que é Supervita Kids?',
-                        'description' => 'Supervita Kids é um <strong>polivitamínico feito de pectina (natural)</strong>, possui <strong>10 vitaminas e 4 minerais</strong> que ajudam na complementação da alimentação infantil.'
+                        'description' => 'Supervita Kids é um Polivitamínico infantil que possui <strong>10 vitaminas e 3 minerais</strong> que ajudam na complementação diária da alimentação infantil.'
                     ],
 
                     [
                         'title' => 'Do que é feito o Supervita Kids?',
-                        'description' => 'Supervita Kids é feito de <strong>pectina uma substância natural</strong>, saudável e baseada em plantas, ou seja não contém gelatina animal em sua composição. Estando comprometidos em produzir gomas usando ingredientes da mais alta qualidade nosso produto contém <strong>vitaminas (A, D3, C, E, K, B6, B9, B12, B5, Biotina, Iodo, Selênio, Zinco, Sódio.)</strong>'
+                        'description' => 'Supervita Kids foi desenvolvido em formato de goma de pectina, ou seja, de origem vegetal, que além de ser saudável proporciona uma fácil ingestão e absorção dos nutrientes e tem um sabor delicioso. Comprometidos em produzir gomas usando ingredientes da mais alta qualidade Supervita Kids contém vitaminas: <strong>A, D3, C, E, K, B6, B9, B12, B5, Biotina e minerais:  Iodo, Selênio e Zinco.</strong>'
                     ],
 
                     [
                         'title' => 'Quantas gomas ingerir?',
-                        'description' => 'Ingerir <strong>duas gomas por dia</strong> proporciona uma complementação das vitaminas e minerais que são importantes para um desenvolvimento saudável para nossas crianças.'
+                        'description' => '2 (duas) gominhas por dia são o suficiente para que a criança tenha uma complementação eficaz de acordo com a necessidade diária recomendada.'
                     ],
 
                     [
@@ -459,17 +428,17 @@
 
                     [
                         'title' => 'Como posso armazenar o produto?',
-                        'description' => 'Armazene as vitaminas Supervita Kids em áreas <strong>mais frias ou em temperatura ambiente</strong>. Mantenha afastado de locais que tenha incidência constante de sol.'
+                        'description' => 'Supervita Kids deve ser conservado em local fresco, fora da geladeira, longe da umidade e da luz solar.'
                     ],
 
                     [
                         'title' => 'Supervita kids causa alergia?',
-                        'description' => 'Por questões de regulação técnica da Anvisa e segurança do fabricante, foi inserido no rótulo do <strong>Supervita Kids</strong> (saiba mais), assim como vários outros produtos no mercado, que pode conter: leite, soja e peixe, devido a outros produtos que também são criados na fábrica. Porém não contém nenhum desses ingredientes em nossa fórmula, ele é feito <strong>a base de pectina vegetal</strong>.'
+                        'description' => 'Sua fórmula não possui ingredientes alergênicos, porém, por questões de regulação técnica da Anvisa e segurança do fabricante, o produto pode conter resquícios de: leite, soja e peixe, devido a outros produtos que também são criados na fábrica (linha de produção). Apesar de o produto não possuir efeitos colaterais, recomendamos fortemente que crianças com restrições em sua dieta por alguma causa, consultem primeiro o seu médico pediatra antes de consumi-lo.'
                     ],
 
                     [
                         'title' => 'Quantas gomas vem em cada embalagem?',
-                        'description' => 'Cada embalagem possui 60 gomas, suprindo para 30 dias, conforme sugestão de consumo.</strong>.'
+                        'description' => 'Cada embalagem possui 60 gomas.'
                     ],
                 ];
 
