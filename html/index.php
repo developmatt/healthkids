@@ -70,7 +70,7 @@
           <img src="/images/vegetables-fruits.png" class="advantages__block-image" alt="">
         </div>
         <h3 class="advantages__block-title">VITAMINAS E</br>MINERAIS</h3>
-        <p>Duas gomas de <strong>Supervita Kids</strong> contém <strong>10 vitaminas e 4 minerais</strong> essenciais para a complementação alimentar infantil.</p>
+        <p>Duas gomas de <strong>Supervita Kids</strong> contém <strong>10 vitaminas e 3 minerais</strong> essenciais para a complementação alimentar infantil.</p>
       </div>
 
       <div class="advantages__block">
@@ -78,7 +78,7 @@
           <img src="/images/gum.png" class="advantages__block-image" alt="">
         </div>
         <h3 class="advantages__block-title">GOMA DE PECTINA</h3>
-        <p>A goma <strong>Supervita Kids</strong> é feita com <strong>pectina vegetal</strong> que são especialmente formuladas pra oferecer um eficiente apoio nutricional complementando a alimentação das crianças.</p>
+        <p>A goma <strong>Supervita Kids</strong> é feita com <strong>pectina (vegetal)</strong> que são especialmente formuladas pra oferecer um eficiente apoio nutricional complementando a alimentação das crianças.</p>
       </div>
 
       <div class="advantages__block">
