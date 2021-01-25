@@ -163,6 +163,10 @@
 }
 
 @media screen and (max-width: 650px) {
+  .strawberry-play {
+    display: none;
+  }
+  
   .main {
     background-image: url("/images/main-background-mobile.png");
     background-position: center;
