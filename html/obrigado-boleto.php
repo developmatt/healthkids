@@ -5,7 +5,7 @@
     <div id="page-content">
 
         <section id="main" class="main">
-            <?php require('./components/internal_menu.php'); ?>
+            <?php //require('./components/internal_menu.php'); ?>
         </section>
 
         <section class="terms-content wrapper">

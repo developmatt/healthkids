@@ -54,7 +54,7 @@
       </div>
 
       <div class="text-container">
-        <img src="/images/strawberry-play.png" alt="" class="text-container__image">
+        <img src="/images/strawberry-play.png" alt="" class="text-container__image strawberry-play">
         <span class="text-container__text">O melhor <strong>POLIVITAMÍNICO INFANTIL</strong> para o seu filho!</span>
       </div>
     </div>
