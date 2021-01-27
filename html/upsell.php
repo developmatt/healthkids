@@ -15,48 +15,26 @@
         <?php
     $currentRelease = [];
     $arrayRelease = [
-      [
-        'url' => 'http://mon.net.br/144hmc',
-        'image_url' => '/images/kit-1.png',
-        'price' => '24',
-        'price_cents' => '12',
-        'selling_champion' => false,
-        'off' => false,
-        'free_freight' => true,
-        'ammount' => 1,
-        'total' => 'Total: 144,70'
-      ],
-      [
-        'url' => 'http://mon.net.br/144i3g',
-        'image_url' => '/images/kit-3.png',
-        'price' => '58',
-        'price_cents' => '00',
-        'selling_champion' => true,
-        'off' => false,
-        'free_freight' => true,
-        'ammount' => 3,
-        'total' => 'De: <span class="striked">434,10</span class="striked"> Por: 348,00'
-      ],
-      [
-        'url' => 'http://mon.net.br/144icq',
-        'image_url' => '/images/kit-5.png',
-        'price' => '101',
-        'price_cents' => '92',
-        'selling_champion' => false,
-        'off' => false,
-        'free_freight' => true,
-        'ammount' => 5,
-        'total' => 'De: <span class="striked">723,50</span class="striked"> Por: 611,50'
-      ]
+        [
+            'url' => '9ecdb20b9a8f0b72e994c8b8421457be',
+            'image_url' => '/images/kit-3.png',
+            'price' => '52',
+            'price_cents' => '20',
+            'selling_champion' => true,
+            'off' => false,
+            'free_freight' => true,
+            'ammount' => 3,
+            'total' => 'De: <span class="striked">434,10</span class="striked"> Por: 313,20'
+          ]
     ];
   ?>
 
 
     <section id="release" class="release">
-        <h2 class="release__title">Você Acabou de <span class="bold yellow">Ganhar 20% de Desconto</span> em <span class="bold">QUALQUER</span>  pacote adicional de SuperVita Kids!</h2>
+        <h2 class="release__title">Você Acabou de <span class="bold yellow">Ganhar MAIS 10% de Desconto</span> na compra do pacote adicional de SuperVita Kids!</h2>
 
         <div class="wrapper column__container">
-        
+        <div class="column"></div>
         <?php foreach($arrayRelease as $currentRelease) :  ?>
         
         <div class="column">
@@ -94,15 +72,17 @@
 
             <span class="column__total"><?= $currentRelease['total'] ?></span>
 
-            <a href="<?= $currentRelease['url'] ?>" class="btn btn-pink column__button">COMPRAR AGORA</a>
+            <a href="#monetizzeCompra" data-upsell="<?= $currentRelease['url'] ?>" class="btn  btn-blue column__button">COMPRAR AGORA</a>
             </div>
         </div>
 
         <?php endforeach; ?>
+        <div class="column"></div>
 
         </div>
     </section>
     </div>
+    <script type="text/javascript" src="https://app.monetizze.com.br/1buyclick.php?u=9ecdb20b9a8f0b72e994c8b8421457be"></script>
     
     <?php require('./components/footer_upsell.php'); ?>
 </body>
