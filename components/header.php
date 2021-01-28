@@ -8,14 +8,14 @@ function url(){
 <html lang="pt-br">
 
 <head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-JV7425T22N"></script>
+  <!-- Global site tag (gtag.js) - Google Ads: 462479561 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-462479561"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
 
-    gtag('config', 'G-JV7425T22N');
+    gtag('config', 'AW-462479561');
   </script>
   <!-- Facebook Pixel Code -->
   <script>
