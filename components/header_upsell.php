@@ -8,11 +8,20 @@ function url(){
 <html lang="pt-br">
 
 <head>
+  <!-- Global site tag (gtag.js) - Google Ads: 462479561 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-462479561"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
     gtag('config', 'AW-462479561');
+  </script>
+  <!-- Event snippet for Compra Zinco conversion page -->
+  <script>
+    gtag('event', 'conversion', {
+        'send_to': 'AW-462479561/93PRCLnD9_IBEMnBw9wB',
+        'transaction_id': ''
+    });
   </script>
   <!-- Facebook Pixel Code -->
   <script>
