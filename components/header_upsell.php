@@ -43,8 +43,7 @@ function url(){
     content_name: 'Polivitamínico',
     content_ids: 'svk_0001',
     content_type: 'product'
-  }
-  );
+  });
   </script>
   <noscript>
   <img height="1" width="1"
