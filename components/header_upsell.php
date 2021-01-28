@@ -19,7 +19,7 @@ function url(){
   <!-- Event snippet for Compra Zinco conversion page -->
   <script>
     gtag('event', 'conversion', {
-        'send_to': 'AW-462479561/93PRCLnD9_IBEMnBw9wB',
+        'send_to': 'AW-462479561/endcCJHjg_ABEMnBw9wB',
         'transaction_id': ''
     });
   </script>
@@ -36,7 +36,7 @@ function url(){
   'https://connect.facebook.net/en_US/fbevents.js');
   fbq('init', '2293366084141052'); 
   fbq('track', 'PageView');
-  fbq('track', 'Purchase', {value: 144.70,currency: 'BRL',content_name: 'C D e Zinco',content_ids: 'svk_0101',content_type: 'product'} );
+  fbq('track', 'Purchase', {value: 144.70,currency: 'BRL',content_name: 'Polivitamínico',content_ids: 'svk_0001',content_type: 'product'} );
   </script>
   <noscript>
   <img height="1" width="1" 
