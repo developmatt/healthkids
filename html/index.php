@@ -5,17 +5,20 @@
   <section id="main" class="main">
     
     <?php require('./components/menu.php'); ?>
-
     <div class="main__container wrapper">
+      <div class="video-container">
+        <iframe src="https://player.vimeo.com/video/498054388?title=false&byline=false" width="600" height="338" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+      </div>
+    <!--
       <h2 class="main__title">PODEROSÍSSIMO PARA UM<br><span class="main__title--bold">SUPER POLIVITAMÍNICO INFANTIL!</span> </h2>
 
       <h3 class="main__subtitle">60 saborosas <span class="main__subtitle--bold">Gomas de Pectina.</span>
       </h3>
+    -->
 
       <a href="#release" class="main__button btn btn-large btn-yellow">QUERO MEU FILHO SAUDÁVEL</a>
 
       <img src="./images/selo.webp" alt="Selo compra segura" class="main__safe-buy">
-
 
     </div>
 
@@ -46,7 +49,7 @@
     </div>
   </section>
 
-
+  <!--
   <section id="video" class="video">
     <div class="wrapper">
       <div class="video-container">
@@ -59,7 +62,7 @@
       </div>
     </div>
   </section>
-
+          -->
 
   <section id="advantages" class="advantages wrapper">
     <h2 class="advantages__title">QUAIS SÃO AS VANTAGES DO SUPERVITA KIDS?</h2>
@@ -244,47 +247,90 @@
 
   <?php
     $currentRelease = [];
-    $arrayRelease = [
-      [
-        'url' => 'http://mon.net.br/144hmc',
-        'image_url' => '/images/kit-1.png',
-        'price' => '24',
-        'price_cents' => '12',
-        'selling_champion' => false,
-        'off' => false,
-        'free_freight' => true,
-        'ammount' => 1,
-        'total' => 'Total: 144,70'
-      ],
-      [
-        'url' => 'http://mon.net.br/144i3g',
-        'image_url' => '/images/kit-3.png',
-        'price' => '58',
-        'price_cents' => '00',
-        'selling_champion' => true,
-        'off' => false,
-        'free_freight' => true,
-        'ammount' => 3,
-        'total' => 'De: <span class="striked">434,10</span class="striked"> Por: 348,00'
-      ],
-      [
-        'url' => 'http://mon.net.br/144icq',
-        'image_url' => '/images/kit-5.png',
-        'price' => '101',
-        'price_cents' => '92',
-        'selling_champion' => false,
-        'off' => false,
-        'free_freight' => true,
-        'ammount' => 5,
-        'total' => 'De: <span class="striked">723,50</span class="striked"> Por: 611,50'
-      ]
-    ];
+    if ($cupom == "amor_de_mae") {
+      $arrayRelease = [
+        [
+          'url' => 'http://mon.net.br/1709z3',
+          'image_url' => '/images/kit-1.png',
+          'price' => '21',
+          'price_cents' => '67',
+          'selling_champion' => false,
+          'off' => false,
+          'free_freight' => true,
+          'ammount' => 1,
+          'total' => 'De: <span class="striked">144,70</span class="striked"> Por: 130,00'
+        ],
+        [
+          'url' => 'http://mon.net.br/1709z3',
+          'image_url' => '/images/kit-3.png',
+          'price' => '52',
+          'price_cents' => '17',
+          'selling_champion' => true,
+          'off' => false,
+          'free_freight' => true,
+          'ammount' => 3,
+          'total' => 'De: <span class="striked">434,10</span class="striked"> Por: 313,00'
+        ],
+        [
+          'url' => 'http://mon.net.br/170atx',
+          'image_url' => '/images/kit-5.png',
+          'price' => '91',
+          'price_cents' => '67',
+          'selling_champion' => false,
+          'off' => false,
+          'free_freight' => true,
+          'ammount' => 5,
+          'total' => 'De: <span class="striked">723,50</span class="striked"> Por: 550,00'
+        ]
+      ];
+    } else {
+      $arrayRelease = [
+        [
+          'url' => 'http://mon.net.br/144hmc',
+          'image_url' => '/images/kit-1.png',
+          'price' => '24',
+          'price_cents' => '12',
+          'selling_champion' => false,
+          'off' => false,
+          'free_freight' => true,
+          'ammount' => 1,
+          'total' => 'Total: 144,70'
+        ],
+        [
+          'url' => 'http://mon.net.br/144i3g',
+          'image_url' => '/images/kit-3.png',
+          'price' => '58',
+          'price_cents' => '00',
+          'selling_champion' => true,
+          'off' => false,
+          'free_freight' => true,
+          'ammount' => 3,
+          'total' => 'De: <span class="striked">434,10</span class="striked"> Por: 348,00'
+        ],
+        [
+          'url' => 'http://mon.net.br/144icq',
+          'image_url' => '/images/kit-5.png',
+          'price' => '101',
+          'price_cents' => '92',
+          'selling_champion' => false,
+          'off' => false,
+          'free_freight' => true,
+          'ammount' => 5,
+          'total' => 'De: <span class="striked">723,50</span class="striked"> Por: 611,50'
+        ]
+      ];
+    }
   ?>
 
 
   <section id="release" class="release">
-    <h2 class="release__title">APROVEITE ESSE <span class="bold">LANÇAMENTO</span></h2>
-    
+    <?php
+    if ($cupom == "amor_de_mae") {
+      echo "<h2 class=\"release__title\">APROVEITE OS DESCONTOS EXCLUSÍVOS PARA O GRUPO <span class=\"bold\">AMOR DE MÃE</span></h2>";
+    } else {
+      echo "<h2 class=\"release__title\">APROVEITE ESSE <span class=\"bold\">LANÇAMENTO</span></h2>";
+    }
+    ?>   
     <h3 class="release__subtitle">Polivitamínico infantil delicioso para crianças em formato de <span class="bold">goma de pectina</span>.</h3>
     
     <div class="wrapper column__container">
