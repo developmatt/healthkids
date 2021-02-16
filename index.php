@@ -1,5 +1,7 @@
 <?php
     $uriSegments = explode("/", parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH));
+    $cupom = "";
+
     switch($uriSegments[1]) {
         case '':
             require('html/index.php');
@@ -36,7 +38,13 @@
         case 'obrigado-boleto':
             require('html/obrigado-boleto.php');
             break;         
-                              
+        
+        case 'amor-de-mae':
+            $cupom = "amor_de_mae";
+
+            require('html/index.php');
+            break;
+
         default:
             require('html/index.php');
             break;
