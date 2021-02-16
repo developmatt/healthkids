@@ -9,7 +9,7 @@
     <h2 class="main__title">PODEROSÍSSIMO PARA UM<br><span class="main__title--bold">SUPER POLIVITAMÍNICO INFANTIL!</span> </h2>
       
       <div class="video-container">
-        <iframe src="https://player.vimeo.com/video/498054388?title=false&byline=false" width="600" height="338" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+        <iframe class="video-container" src="https://player.vimeo.com/video/498054388?title=false&byline=false" width="600" height="338" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
       </div>
     <!--
       <h2 class="main__title">PODEROSÍSSIMO PARA UM<br><span class="main__title--bold">SUPER POLIVITAMÍNICO INFANTIL!</span> </h2>
